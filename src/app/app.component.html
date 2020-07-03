@@ -1,183 +1,191 @@
 <div class="DSA_mainwrapper">
 
     <!-- Nav Bar -->
-    <section *ngIf = "this.router.url !== '/login'">
-    <header class="DSA_Header clearfix ctr_header" id="scrollHeader">
-        <div class="container-fluid" id="mainHeader">
+    <section *ngIf="this.router.url !== '/login'">
+        <header class="DSA_Header clearfix ctr_header" id="scrollHeader">
+            <div class="container-fluid" id="mainHeader">
 
-            <a href="javascript:void(0)" (click)="DSA_mainHamburger($event)"
-                class="DSA_Hamburger icon x-24 icon-Hamburger white marT24 float-left"></a>
+                <a href="javascript:void(0)" (click)="DSA_mainHamburger($event)"
+                    class="DSA_Hamburger icon x-24 icon-Hamburger white marT24 float-left"></a>
+                <img class="iconImage white marT24 float-left" src="assets/images/Infosys_logo_natural.png" />
                 <a href="javascript:void(0)" class="DSA_Applogo marL16 float-left">
                     Epidemic Surveilance suite</a>
                 <ul class="DSA_RightUtil float-right marT8">
                     <li class="d-inline-block d-xl-none"><a href="javascript:void(0)" (click)="DSA_mainSearch()"
                             class="d-inline-block "><i class="icon x-24 white search-icon"></i></a></li>
+                            <li class="faqalign d-none d-xl-inline-block"><a class="d-inline-block padTB16 DSA_mainactiveLink faqalign" (click)='clickactive($event);'>
+                                CTC</a>
+                        </li>
                     <li class="faqalign d-none d-xl-inline-block"><a href="javascript:void(0)"
                             class="d-inline-block padTB16 DSA_mainactiveLink faqalign" (click)='clickactive($event);'>
                             FAQ</a>
                     </li>
-                <li class="d-inline-block d-xl-none">
-                    <div ngbDropdown class="d-inline-block" container="body">
-                        <a href="javascript:void(0);" id="OverflowMenu_dd" ngbDropdownToggle
-                            (click)='clickactive($event);'
-                            class="DSA_mainactiveLink d-inline-block pad8 DSA_dropdown-iconOnly"><i
-                                class="icon x-24 v-menu-icon white"></i></a>
-                        <div ngbDropdownMenu aria-labelledby="OverflowMenu_dd">
-                            <ul class="DSA_wb_listItemSingle DSA_wb_sec_listItemSingle DSA_frstLevel">
-                                <li (click)="setActiveCls($event)" class="">
-                                    <div class="padLR16 clearfix">
-                                        <div class="float-left">
-                                            <img class="avatarImageCircle" src="assets/images/avatar-mini-03.png" />
-                                        </div>
-                                        <h2 class="DSA_wb_mainBodyTxt2 web-GreyLight menu-withoutIcon DSA_profilePad">
-                                            Profilename</h2>
-                                    </div>
-                                    <hr>
-                                </li>
-                                <li (click)="setActiveCls($event)">
-                                    <a href="javascript:void(0);">
-                                        <div class="marR16 float-left">
-                                            <i class="icon x-24 notification-icon relative"><i
-                                                    class="DSA_notIndicator"></i></i>
-                                        </div>
-                                        <h2 class="DSA_wb_mainBodyTxt2 web-GreyLight menu-withoutIcon">Notification</h2>
-                                    </a>
-                                </li>
-                                <li (click)="setActiveCls($event)">
-                                    <a href="javascript:void(0);">
-                                        <div class="marR16 float-left">
-                                            <i class="icon x-24 star-icon"></i>
-                                        </div>
-                                        <h2 class="DSA_wb_mainBodyTxt2 web-GreyLight menu-withoutIcon">List item</h2>
-                                    </a>
-                                </li>
-                                <li (click)="setActiveCls($event)">
-                                    <a href="javascript:void(0);">
-                                        <div class="marR16 float-left">
-                                            <i class="icon x-24 star-icon"></i>
-                                        </div>
-                                        <h2 class="DSA_wb_mainBodyTxt2 web-GreyLight menu-withoutIcon">List item</h2>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-
-                </li>
-                <li class="d-none d-xl-block">
-
-                    <a href="javascript:void(0)" class="DSA_Profile padTB8 padL16 DSA_mainactiveLink">
-                        <div ngbDropdown class="d-inline-block marR8 vMid" container="body">
-                            <span href="javascript:void(0);" id="OverflowMenu_dd" ngbDropdownToggle
-                                (click)='clickactive($event);' class="DSA_dropdown-iconOnly DSA_dddesktop"><img
-                                    class="avatarImageCircle" src="assets/images/avatar1.png" /></span>
+                    <li class="d-inline-block d-xl-none">
+                        <div ngbDropdown class="d-inline-block" container="body">
+                            <a href="javascript:void(0);" id="OverflowMenu_dd" ngbDropdownToggle
+                                (click)='clickactive($event);'
+                                class="DSA_mainactiveLink d-inline-block pad8 DSA_dropdown-iconOnly"><i
+                                    class="icon x-24 v-menu-icon white"></i></a>
                             <div ngbDropdownMenu aria-labelledby="OverflowMenu_dd">
                                 <ul class="DSA_wb_listItemSingle DSA_wb_sec_listItemSingle DSA_frstLevel">
+                                    <li (click)="setActiveCls($event)" class="">
+                                        <div class="padLR16 clearfix">
+                                            <div class="float-left">
+                                                <img class="avatarImageCircle" src="assets/images/avatar-mini-03.png" />
+                                            </div>
+                                            <h2
+                                                class="DSA_wb_mainBodyTxt2 web-GreyLight menu-withoutIcon DSA_profilePad">
+                                                Profilename</h2>
+                                        </div>
+                                        <hr>
+                                    </li>
                                     <li (click)="setActiveCls($event)">
                                         <a href="javascript:void(0);">
                                             <div class="marR16 float-left">
-                                                <i class="icon x-24 star-icon"></i>
-                                                <i class="icon x-24 star-icon purple hide"></i>
-                                                <i class="icon x-24 star-icon dark-purple hide"></i>
+                                                <i class="icon x-24 notification-icon relative"><i
+                                                        class="DSA_notIndicator"></i></i>
                                             </div>
-
-                                            <h2 class="DSA_wb_h2HeaderRegular web-GreyLight">List item</h2>
+                                            <h2 class="DSA_wb_mainBodyTxt2 web-GreyLight menu-withoutIcon">Notification
+                                            </h2>
                                         </a>
                                     </li>
                                     <li (click)="setActiveCls($event)">
                                         <a href="javascript:void(0);">
                                             <div class="marR16 float-left">
-                                                <i class="icon x-24 star-icon"></i>
-                                                <i class="icon x-24 star-icon purple hide"></i>
-                                                <i class="icon x-24 star-icon dark-purple hide"></i>
                                             </div>
-
-                                            <h2 class="DSA_wb_h2HeaderRegular web-GreyLight">List item</h2>
+                                            <h2 class="DSA_wb_mainBodyTxt2 web-GreyLight menu-withoutIcon">List item
+                                            </h2>
                                         </a>
                                     </li>
                                     <li (click)="setActiveCls($event)">
                                         <a href="javascript:void(0);">
                                             <div class="marR16 float-left">
-                                                <i class="icon x-24 star-icon"></i>
-                                                <i class="icon x-24 star-icon purple hide"></i>
-                                                <i class="icon x-24 star-icon dark-purple hide"></i>
                                             </div>
-
-                                            <h2 class="DSA_wb_h2HeaderRegular web-GreyLight">List item</h2>
+                                            <h2 class="DSA_wb_mainBodyTxt2 web-GreyLight menu-withoutIcon">List item
+                                            </h2>
                                         </a>
                                     </li>
-
                                 </ul>
                             </div>
                         </div>
-                    </a></li>
-            </ul>
 
-            
-        </div>
+                    </li>
+                    <li class="d-none d-xl-block">
 
-        <!-- <div class="DSA_leftSrch relative DSA_navHideSrch" id="mainSearch">
-            <div class="container-fluid">
-                <div class="DSA_logo clearfix">
-                    <div class="DSA_headerTitle nomarR">
-                        <mat-form-field class="custom-form-field white">
-                            <input id="typeahead-template" type="text" matInput placeholder="How can I help you today?">
-                            <a href="javascript:void(0)" class="DSA_iconSrch"><i class="icon x-24 white search-icon">
-                                </i></a>
-                        </mat-form-field>
+                        <a href="javascript:void(0)" class="DSA_Profile padTB8 padL16 DSA_mainactiveLink">
+                            <div ngbDropdown class="d-inline-block marR8 vMid" container="body">
+                                <span href="javascript:void(0);" id="OverflowMenu_dd" ngbDropdownToggle
+                                    (click)='clickactive($event);' class="DSA_dropdown-iconOnly DSA_dddesktop"><img
+                                        class="avatarImageCircle" src="assets/images/avatar1.png" /></span>
+                                <div ngbDropdownMenu aria-labelledby="OverflowMenu_dd">
+                                    <ul class="DSA_wb_listItemSingle DSA_wb_sec_listItemSingle DSA_frstLevel">
+                                        <li (click)="setActiveCls($event)">
+                                            <a href="javascript:void(0);">
+                                                <div class="marR16 float-left">
+                                                    <i class="icon x-24 star-icon"></i>
+                                                    <i class="icon x-24 star-icon purple hide"></i>
+                                                    <i class="icon x-24 star-icon dark-purple hide"></i>
+                                                </div>
+
+                                                <h2 class="DSA_wb_h2HeaderRegular web-GreyLight">List item</h2>
+                                            </a>
+                                        </li>
+                                        <li (click)="setActiveCls($event)">
+                                            <a href="javascript:void(0);">
+                                                <div class="marR16 float-left">
+                                                    <i class="icon x-24 star-icon"></i>
+                                                    <i class="icon x-24 star-icon purple hide"></i>
+                                                    <i class="icon x-24 star-icon dark-purple hide"></i>
+                                                </div>
+
+                                                <h2 class="DSA_wb_h2HeaderRegular web-GreyLight">List item</h2>
+                                            </a>
+                                        </li>
+                                        <li (click)="setActiveCls($event)">
+                                            <a href="javascript:void(0);">
+                                                <div class="marR16 float-left">
+                                                    <i class="icon x-24 star-icon"></i>
+                                                    <i class="icon x-24 star-icon purple hide"></i>
+                                                    <i class="icon x-24 star-icon dark-purple hide"></i>
+                                                </div>
+
+                                                <h2 class="DSA_wb_h2HeaderRegular web-GreyLight">List item</h2>
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </a></li>
+                </ul>
+
+
+            </div>
+
+            <div class="DSA_leftSrch relative DSA_navHideSrch" id="mainSearch">
+                <div class="container-fluid">
+                    <div class="DSA_logo clearfix">
+                        <div class="DSA_headerTitle nomarR">
+                            <mat-form-field class="custom-form-field white">
+                                <input id="typeahead-template" type="text" matInput
+                                    placeholder="How can I help you today?">
+                                <a href="javascript:void(0)" class="DSA_iconSrch"><i
+                                        class="icon x-24 white search-icon">
+                                    </i></a>
+                            </mat-form-field>
+                        </div>
+                        <a href="javascript:void(0);" (click)="DSA_mainSearch()"
+                            class="DSA_vertical-LeftCenter icon x-24 white back-icon"></a>
                     </div>
-                    <a href="javascript:void(0);" (click)="DSA_mainSearch()"
-                        class="DSA_vertical-LeftCenter icon x-24 white back-icon"></a>
                 </div>
             </div>
-        </div> -->
 
-    </header>
-    <nav class="DSA_Appnav DSA_navHide ctr_nav ts_mainNav" id="mainNav" (click)="$event.stopPropagation()">
-        <div class="clearfix"><a href="javascript:void(0)"
-                class="DSA_Hamburger icon x-24 icon-Hamburger purple marL16 marT24 float-left"
-                (click)="DSA_mainHamburger($event)"></a></div>
-        <h2 class="DSA_h2Header padLR16 marT32 marB24">Infy Apps</h2>
-        <ul class="DSA_listItemSingle">
-            <li>
-                <a href="javascript:void(0)">
-                    <i class="icon x-24 personal-icon marR16 float-left"></i>
-                    <h5 class="DSA_h5Header GreyDarkest DSA_list-1line">InfyMe</h5>
-                </a>
-            </li>
-            <li>
-                <a href="javascript:void(0)">
-                    <i class="icon x-24 travel-icon marR16 float-left"></i>
-                    <h5 class="DSA_h5Header GreyDarkest DSA_list-1line">Work</h5>
-                </a>
-            </li>
-            <li>
-                <a href="javascript:void(0)">
-                    <i class="icon x-24 star-icon marR16 float-left"></i>
-                    <h5 class="DSA_h5Header GreyDarkest DSA_list-1line">Learn and Career</h5>
-                </a>
-            </li>
-            <li>
-                <a href="javascript:void(0)">
-                    <i class="icon x-24 star-icon marR16 float-left"></i>
-                    <h5 class="DSA_h5Header GreyDarkest DSA_list-1line">World Of Infosys</h5>
-                </a>
-            </li>
-            <li>
-                <a href="javascript:void(0)">
-                    <i class="icon x-24 star-icon marR16 float-left"></i>
-                    <h5 class="DSA_h5Header GreyDarkest DSA_list-1line">Support</h5>
-                </a>
-            </li>
-        </ul>
-        <h2 class="DSA_h2Header padLR16 marT32 marB24">Recent Apps</h2>
-        <ul class="row nomar DSA_AppLinks">
-            <li class="col-lg-6"><a href="javascript:void(0)">Claims</a></li>
-            <li class="col-lg-6"><a href="javascript:void(0)">Leave</a></li>
-            <li class="col-lg-6"><a href="javascript:void(0)">Alcon</a></li>
-            <li class="col-lg-6"><a href="javascript:void(0)">Alcon</a></li>
-        </ul>
-    </nav>
+        </header>
+        <nav class="DSA_Appnav DSA_navHide ctr_nav ts_mainNav" id="mainNav" (click)="$event.stopPropagation()">
+            <div class="clearfix"><a href="javascript:void(0)"
+                    class="DSA_Hamburger icon x-24 icon-Hamburger purple marL16 marT24 float-left"
+                    (click)="DSA_mainHamburger($event)"></a></div>
+            <h2 class="DSA_h2Header padLR16 marT32 marB24">Infy Apps</h2>
+            <ul class="DSA_listItemSingle">
+                <li>
+                    <a href="javascript:void(0)">
+                        <i class="icon x-24 personal-icon marR16 float-left"></i>
+                        <h5 class="DSA_h5Header GreyDarkest DSA_list-1line">InfyMe</h5>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">
+                        <i class="icon x-24 travel-icon marR16 float-left"></i>
+                        <h5 class="DSA_h5Header GreyDarkest DSA_list-1line">Work</h5>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">
+                        <i class="icon x-24 star-icon marR16 float-left"></i>
+                        <h5 class="DSA_h5Header GreyDarkest DSA_list-1line">Learn and Career</h5>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">
+                        <i class="icon x-24 star-icon marR16 float-left"></i>
+                        <h5 class="DSA_h5Header GreyDarkest DSA_list-1line">World Of Infosys</h5>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">
+                        <i class="icon x-24 star-icon marR16 float-left"></i>
+                        <h5 class="DSA_h5Header GreyDarkest DSA_list-1line">Support</h5>
+                    </a>
+                </li>
+            </ul>
+            <h2 class="DSA_h2Header padLR16 marT32 marB24">Recent Apps</h2>
+            <ul class="row nomar DSA_AppLinks">
+                <li class="col-lg-6"><a href="javascript:void(0)">Claims</a></li>
+                <li class="col-lg-6"><a href="javascript:void(0)">Leave</a></li>
+                <li class="col-lg-6"><a href="javascript:void(0)">Alcon</a></li>
+                <li class="col-lg-6"><a href="javascript:void(0)">Alcon</a></li>
+            </ul>
+        </nav>
     </section>
     <!-- Nav Bar -->
 

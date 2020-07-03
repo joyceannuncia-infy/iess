@@ -70,29 +70,27 @@
                                                     <th>Language</th>
                                                     <th>County</th>
                                                     <th>Investigation Status</th>
-                                                    <th>Last Modified</th>
+                                                    <th>Last Monitored</th>
                                                     <th>Contacts</th>
                                                     <th>Risk Level</th>
                                                     <th>Action</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
-                                                <tr>
-                                                    <td>213421</td>
+                                                <tr *ngFor = "let case of casemanagedata">
+                                                    <td>{{case.contactId}}</td>
                                                     <td>
                                                         <div>
                                                             <img src="assets/images/avatar-mini-01.png" alt=""
                                                                 class="float-left avatar-mini" />
                                                             <div>
-                                                                <div class="DSA_wb_mainBodyTxt2 web-GreyDarkest">
-                                                                    Ayansh R</div>
-
+                                                                {{case.name}}
                                                             </div>
                                                         </div>
                                                     </td>
-                                                    <td>English</td>
+                                                    <td >{{case.language}}</td>
                                                     <td>Queens</td>
-                                                    <td>Approved</td>
+                                                    <td>{{case.investigationStatus}}</td>
                                                     <td>23-78-9292</td>
                                                     <td>15</td>
                                                     <td><span class="DSA_wb_chipStyle DSA_closedchip">High</span>
@@ -102,84 +100,9 @@
                                                         <i class="icon x-24 purple show-icon"> </i>
                                                         <i class="icon x-24 purple download-icon"> </i></td>
                                                 </tr>
-                                                <tr>
-                                                    <td>56789</td>
-                                                    <td>
-                                                        <div>
-                                                            <img src="assets/images/avatar-mini.png" alt=""
-                                                                class="float-left avatar-mini" />
-                                                            <div>
-                                                                <div class="DSA_wb_mainBodyTxt2 web-GreyDarkest">
-                                                                    Rakesh S</div>
-
-                                                            </div>
-                                                        </div>
-                                                    </td>
-                                                    <td>English</td>
-                                                    <td>Queens</td>
-                                                    <td>Approved</td>
-                                                    <td>23-78-9292</td>
-                                                    <td>10</td>
-                                                    <td><span class="DSA_wb_chipStyle DSA_inprogresschip">Low</span>
-                                                    </td>
-                                                    <td><i class="icon x-24 purple call-icon"> </i>
-                                                        <i class="icon x-24 purple search-icon"> </i>
-                                                        <i class="icon x-24 purple show-icon"> </i>
-                                                        <i class="icon x-24 purple download-icon"> </i></td>
-                                                </tr>
-                                                <tr>
-                                                    <td>433589</td>
-                                                    <td>
-                                                        <div>
-                                                            <img src="assets/images/avatar-mini-02.png" alt=""
-                                                                class="float-left avatar-mini" />
-                                                            <div>
-                                                                <div class="DSA_wb_mainBodyTxt2 web-GreyDarkest">
-                                                                    John William</div>
-
-                                                            </div>
-                                                        </div>
-                                                    </td>
-                                                    <td>Queens</td>
-                                                    <td>513561</td>
-                                                    <td>Approved</td>
-                                                    <td>23-78-9292</td>
-                                                    <td>10</td>
-                                                    <td><span class="DSA_wb_chipStyle DSA_closedchip">High</span>
-                                                    </td>
-                                                    <td><i class="icon x-24 purple call-icon"> </i>
-                                                        <i class="icon x-24 purple search-icon"> </i>
-                                                        <i class="icon x-24 purple show-icon"> </i>
-                                                        <i class="icon x-24 purple download-icon"> </i></td>
-                                                </tr>
-                                                <tr>
-                                                    <td>12389</td>
-                                                    <td>
-                                                        <div>
-                                                            <img src="assets/images/avatar-mini-02.png" alt=""
-                                                                class="float-left avatar-mini" />
-                                                            <div>
-                                                                <div class="DSA_wb_mainBodyTxt2 web-GreyDarkest">
-                                                                    Sneh</div>
-
-                                                            </div>
-                                                        </div>
-                                                    </td>
-                                                    <td>Queens</td>
-                                                    <td>513561</td>
-                                                    <td>Approved</td>
-                                                    <td>23-78-9292</td>
-                                                    <td>10</td>
-                                                    <td><span class="DSA_wb_chipStyle DSA_closedchip">High</span>
-                                                    </td>
-                                                    <td><i class="icon x-24 purple call-icon"> </i>
-                                                        <i class="icon x-24 purple search-icon"> </i>
-                                                        <i class="icon x-24 purple show-icon"> </i>
-                                                        <i class="icon x-24 purple download-icon"> </i></td>
-                                                </tr>
-
+                                                
                                         </table>
-
+                                        
                                     </div>
                                 </div>
 

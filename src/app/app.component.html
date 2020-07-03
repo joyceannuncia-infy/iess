@@ -7,16 +7,15 @@
 
             <a href="javascript:void(0)" (click)="DSA_mainHamburger($event)"
                 class="DSA_Hamburger icon x-24 icon-Hamburger white marT24 float-left"></a>
-            <a href="javascript:void(0)" class="DSA_Applogo marL16 float-left">
-                TA Platform</a>
-            <ul class="DSA_RightUtil float-right marT8">
-                <li class="d-inline-block d-xl-none"><a href="javascript:void(0)" (click)="DSA_mainSearch()"
-                        class="d-inline-block "><i class="icon x-24 white search-icon"></i></a></li>
-                <li class="d-none d-xl-inline-block"><a href="javascript:void(0)"
-                        class="d-inline-block padTB16 DSA_mainactiveLink" (click)='clickactive($event);'>
-                        <!--(click)='clickactive($event);DSA_toggleRightpanel()' >--><i
-                            class="icon x-24 white notification-icon relative"><i class="DSA_notIndicator"></i></i></a>
-                </li>
+                <a href="javascript:void(0)" class="DSA_Applogo marL16 float-left">
+                    Epidemic Surveilance suite</a>
+                <ul class="DSA_RightUtil float-right marT8">
+                    <li class="d-inline-block d-xl-none"><a href="javascript:void(0)" (click)="DSA_mainSearch()"
+                            class="d-inline-block "><i class="icon x-24 white search-icon"></i></a></li>
+                    <li class="faqalign d-none d-xl-inline-block"><a href="javascript:void(0)"
+                            class="d-inline-block padTB16 DSA_mainactiveLink faqalign" (click)='clickactive($event);'>
+                            FAQ</a>
+                    </li>
                 <li class="d-inline-block d-xl-none">
                     <div ngbDropdown class="d-inline-block" container="body">
                         <a href="javascript:void(0);" id="OverflowMenu_dd" ngbDropdownToggle
@@ -114,13 +113,10 @@
                     </a></li>
             </ul>
 
-            <div class="DSA_headersearch relative padT16 d-none d-xl-block">
-                <input placeholder="How can I help you today?" class="DSA_headersearchInput" />
-                <a href="javascript:void(0)" class="DSA_headersearchIcon iconinline icon x-24 search-icon"></a>
-            </div>
+            
         </div>
 
-        <div class="DSA_leftSrch relative DSA_navHideSrch" id="mainSearch">
+        <!-- <div class="DSA_leftSrch relative DSA_navHideSrch" id="mainSearch">
             <div class="container-fluid">
                 <div class="DSA_logo clearfix">
                     <div class="DSA_headerTitle nomarR">
@@ -134,7 +130,7 @@
                         class="DSA_vertical-LeftCenter icon x-24 white back-icon"></a>
                 </div>
             </div>
-        </div>
+        </div> -->
 
     </header>
     <nav class="DSA_Appnav DSA_navHide ctr_nav ts_mainNav" id="mainNav" (click)="$event.stopPropagation()">

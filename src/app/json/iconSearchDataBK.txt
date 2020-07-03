@@ -1,0 +1,173 @@
+[
+
+    {
+      "id": "1",
+	  "name": "Information",
+	  "tag": "Info,Information",
+	  "Catagory": "Alert",
+      "iconClass": "info-big-icon",
+      "iconCode": "e0a4"
+    },
+	{
+      "id": "2a",
+	  "name": "Warning",
+	  "tag": "Alert,Warning",
+	  "Catagory": "Alert",
+      "iconClass": "alert-icon",
+      "iconCode": "e004"
+    },
+	{
+      "id": "2b",
+	  "name": "Alert",
+	  "tag": "Alert,Warning",	  
+	  "Catagory": "Alert",
+      "iconClass": "alert-icon",
+      "iconCode": "e004"
+    },
+	{
+      "id": "3",
+	  "name": "Success",
+	  "tag": "Success",
+	  "Catagory": "Alert",
+      "iconClass": "success-big-icon",
+      "iconCode": "e0ca"
+    },
+	{
+      "id": "4",
+	  "name": "Error",
+	  "tag": "Error",
+	  "Catagory": "Alert",
+      "iconClass": "error-big-icon",
+      "iconCode": "e01a"
+    },
+	{
+      "id": "5a",
+	  "name": "Notification",
+	  "tag": "Notification, Bell",
+	  "Catagory": "Alert",
+      "iconClass": "notification-icon",
+      "iconCode": "e0b0"
+    },
+	{
+      "id": "5b",
+	  "name": "Bell",
+	  "tag": "Notification, Bell",
+	  "Catagory": "Alert",
+      "iconClass": "notification-icon",
+      "iconCode": "e0b0"
+    },
+	{
+      "id": "6a",
+	  "name": "Idea",
+	  "tag": "Idea, Hint, Solution",
+	  "Catagory": "Alert",
+      "iconClass": "icon_hint_idea",
+      "iconCode": "e06d"
+    },
+	{
+      "id": "6b",
+	  "name": "Hint",
+	  "tag": "Idea, Hint, Solution",
+	  "Catagory": "Alert",
+      "iconClass": "icon_hint_idea",
+      "iconCode": "e06d"
+    },
+	{
+      "id": "6c",
+	  "name": "Solution",
+	  "tag": "Idea, Hint, Solution",
+	  "Catagory": "Alert",
+      "iconClass": "icon_hint_idea",
+      "iconCode": "e06d"
+    },
+	{
+      "id": "7a",
+	  "name": "Call",
+	  "tag": "Call, Phone",
+	  "Catagory": "Media and Communication",
+      "iconClass": "call-icon",
+      "iconCode": "e00b"
+    },
+	{
+      "id": "7b",
+	  "name": "Phone",
+	  "tag": "Call, Phone",
+	  "Catagory": "Media and Communication",
+      "iconClass": "call-icon",
+      "iconCode": "e00b"
+    },
+	{
+      "id": "8",
+	  "name": "Call back",
+	  "tag": "Call back",
+	  "Catagory": "Media and Communication",
+      "iconClass": "callback-icon",
+      "iconCode": "e00c"
+    },
+	{
+      "id": "9a",
+	  "name": "Email",
+	  "tag": "mail, Email",
+	  "Catagory": "Media and Communication",
+      "iconClass": "mail-icon",
+      "iconCode": "e0ab"
+    },
+	{
+      "id": "9b",
+	  "name": "mail",
+	  "tag": "mail, Email",
+	  "Catagory": "Media and Communication",
+      "iconClass": "mail-icon",
+      "iconCode": "e0ab"
+    },
+	{
+      "id": "10a",
+	  "name": "Play",
+	  "tag": "Play, Video",
+	  "Catagory": "Media and Communication",
+      "iconClass": "video-icon",
+      "iconCode": "e0d4"
+    },
+	{
+      "id": "10b",
+	  "name": "Video",
+	  "tag": "Play, Video",
+	  "Catagory": "Media and Communication",
+      "iconClass": "video-icon",
+      "iconCode": "e0d4"
+    },
+	{
+      "id": "11",
+	  "name": "Pause",
+	  "tag": "Pause",
+	  "Catagory": "Media and Communication",
+      "iconClass": "icon-pause",
+      "iconCode": "e03d"
+    },
+	{
+      "id": "12a",
+	  "name": "Mobile",
+	  "tag": "Mobile, Cell Phone",
+	  "Catagory": "Media and Communication",
+      "iconClass": "icon-mobile",
+      "iconCode": "e038"
+    },
+	{
+      "id": "12b",
+	  "name": "Cell Phone",
+	  "tag": "Mobile, Cell Phone",
+	  "Catagory": "Media and Communication",
+      "iconClass": "icon-mobile",
+      "iconCode": "e038"
+    },
+	{
+      "id": "13",
+	  "name": "Camera",
+	  "tag": "Camera",
+	  "Catagory": "Media and Communication",
+      "iconClass": "icon_video-call",
+      "iconCode": "e09c"
+    }
+	
+
+]

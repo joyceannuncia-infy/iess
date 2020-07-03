@@ -1,0 +1,149 @@
+
+
+body, html {
+  font-family: 'roboto';
+  font-size: 14px;
+  background: #EFEFEF;
+}
+
+header {
+  background: #F14A40;
+  padding: 16px;
+  color: #ffffff;
+  font-family: roboto;
+  font-weight: 500;
+}
+
+header .logo {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+header h1 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header .header-info-txt {
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  line-height: 19px;
+  margin-bottom: 30px;
+}
+
+header .DSA_card-widget {
+  font-size: 14px;
+}
+
+.DSA_card-widget .DSA_grid {
+  display: grid;
+  display: grid;
+  -ms-grid-columns: 90% 10%;
+      grid-template-columns: 90% 10%;
+  margin-bottom: 20px;
+}
+
+.DSA_grid > div {
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.DSA_card-widget {
+  border-radius: 5px;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.16);
+          box-shadow: 0 1px 4px rgba(0, 0, 0, 0.16);
+  min-height: 50px;
+}
+
+.DSA_card-widget .mat-card-title {
+  font-size: 14px;
+  font-family: roboto;
+  font-weight: 400;
+  color: #D0332E;
+}
+
+.DSA_card-widget .mat-card-content {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: roboto;
+}
+
+.DSA_card-widget .DSA_status {
+  width: 30px;
+  border-radius: 12px;
+  border: 1px solid #D0332E;
+  height: 16px;
+  font-size: 10px;
+  font-family: roboto;
+  font-weight: 400;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  line-height: 13px;
+  display: inline-block;
+  color: #D0332E;
+}
+
+.DSA_card-widget.dark {
+  background: #212121;
+}
+
+.DSA_card-widget.dark .DSA_status {
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+.primary, .DSA_primary-btn, .DSA_secondary-btn {
+  border-radius: 15px;
+  padding: 8px 16px;
+  font-size: 12px;
+  font-family: roboto;
+  text-transform: uppercase;
+  line-height: 14px;
+  border: 1px solid transparent;
+  background: none;
+}
+
+.DSA_primary-btn {
+  background: #5B616B;
+  color: #ffffff;
+}
+
+.DSA_secondary-btn {
+  border: 1px solid #212121;
+  color: #212121;
+}
+
+.DSA_content-section {
+  padding: 16px;
+}
+
+footer {
+  -webkit-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  min-height: 40px;
+  display: -ms-grid !important;
+  display: grid !important;
+  -ms-grid-columns: 33.3% 33.3% 33.3%;
+      grid-template-columns: 33.3% 33.3% 33.3%;
+}
+
+footer a {
+  background: url(assets/images/home.png) no-repeat center 10px;
+  height: 54px;
+  font-size: 12px;
+  font-family: roboto;
+  font-weight: 400;
+  color: #5B616B;
+  text-align: center;
+  padding-top: 30px;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: #5B616B;
+}
+/*# sourceMappingURL=styles.css.map */

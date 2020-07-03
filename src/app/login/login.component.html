@@ -1,0 +1,117 @@
+
+<!-- <div class="DSA_mainwrapper DSA_mainwrapperLogin" (window:resize)="onResize($event)" id="loginCnt"> -->
+    <div class="DSA_mainwrapper DSA_mainwrapperLogin" id="loginCnt">
+    <div class="DSA_pageoverlay" id="DSA_pageoverlay">
+
+
+        <!-- <nav class="DSA_Appnav DSA_navHide ctr_nav ts_mainNav" id="mainNav" (click)="$event.stopPropagation()">
+            <div class="clearfix"><a href="javascript:void(0)"
+                    class="DSA_Hamburger icon x-24 icon-Hamburger purple marL16 marT24 float-left"
+                    (click)="DSA_mainHamburger($event)"></a></div>
+            <h2 class="DSA_h2Header padLR16 marT32 marB24">Infy Apps</h2>
+            <ul class="DSA_listItemSingle">
+                <li>
+                    <a href="javascript:void(0)">
+                        <i class="icon x-24 personal-icon marR16 float-left"></i>
+                        <h5 class="DSA_h5Header GreyDarkest DSA_list-1line">InfyMe</h5>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">
+                        <i class="icon x-24 travel-icon marR16 float-left"></i>
+                        <h5 class="DSA_h5Header GreyDarkest DSA_list-1line">Work</h5>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">
+                        <i class="icon x-24 star-icon marR16 float-left"></i>
+                        <h5 class="DSA_h5Header GreyDarkest DSA_list-1line">Learn and Career</h5>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">
+                        <i class="icon x-24 star-icon marR16 float-left"></i>
+                        <h5 class="DSA_h5Header GreyDarkest DSA_list-1line">World Of Infosys</h5>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">
+                        <i class="icon x-24 star-icon marR16 float-left"></i>
+                        <h5 class="DSA_h5Header GreyDarkest DSA_list-1line">Support</h5>
+                    </a>
+                </li>
+            </ul>
+            <h2 class="DSA_h2Header padLR16 marT32 marB24">Recent Apps</h2>
+            <ul class="row nomar DSA_AppLinks">
+                <li class="col-lg-6"><a href="javascript:void(0)">Claims</a></li>
+                <li class="col-lg-6"><a href="javascript:void(0)">Leave</a></li>
+                <li class="col-lg-6"><a href="javascript:void(0)">Alcon</a></li>
+                <li class="col-lg-6"><a href="javascript:void(0)">Alcon</a></li>
+            </ul>
+        </nav> -->
+
+
+        <!-- Form -->
+        <div class="DSA_loginMid clearfix">
+            <div class="DSA_loginCtr" id="DSA_pageMidpanel">
+
+                <!-- <form [formGroup]="loginForm" (ngSubmit)="signin()" class="signin-form"> -->
+                <form [formGroup]="loginForm" >
+
+                <h1 class="DSA_wb_displayText DSA_loginMAr">Log In</h1>
+
+                <!-- old form field -->
+                <!-- <div class="form-input">
+                    <input type="text" formControlName="userName" class="form-control" placeholder="Username" [ngClass]="{ 'is-invalid': submitted &amp;&amp; loginForm.controls.userName.errors }"
+                    />
+                    <div *ngIf="submitted &amp;&amp; loginForm.controls.userName.errors" class="text-danger">
+                        <div *ngIf="loginForm.controls.userName.errors.required">Username is required</div>
+                    </div>
+                </div> -->
+
+                <mat-form-field class="DSA_Wb_custom-form-field">
+                    <mat-label>Username</mat-label>
+                    <input matInput formControlName="userName" placeholder="Enter user name">
+                    <!-- <span matSuffix>@infosys.com</span> -->
+                    <mat-error *ngIf="loginForm.controls.userName.errors.required">
+                        Username is Required
+                    </mat-error>
+                </mat-form-field>
+
+                <mat-form-field class="DSA_Wb_custom-form-field marT24">
+                    <mat-label>Password</mat-label>
+                    <input type="password" matInput formControlName="password" placeholder="Enter password">
+                    <mat-icon matSuffix>
+                        <a href="javascript:void(0)" class="icon x-24 show-icon "></a>
+                    </mat-icon>
+                    <mat-error *ngIf="loginForm.controls.password.errors.required">
+                        Password is Required
+                    </mat-error>
+                </mat-form-field>
+
+                <button mat-flat-button class="DSA_wb_primary-btn DSA_width100 marT16"
+                    (click)="signin()">Log In
+                </button>
+
+                <div class="clearfix marT24 marB8">
+                    <a 
+                        href="#" 
+                        class="float-left DSA_wb_mainBodyTxt2 DSA_purpleLink">Forgot Password?
+                        (click)="forgotPassword()"
+                    </a>
+                    
+                    <!-- resigter feature not needed -->
+                    <!-- <span class="float-right DSA_wb_mainBodyTxt2 web-GreyDarkest">
+                        New User? 
+                        <a href="#" class="DSA_purpleLink" (click)="registerhere()">Register</a>
+                    </span> -->
+                </div>
+                
+
+                <div class="DSA_wb_caption marT32 web-GreyLight">Copyright © 2020 Infosys Limited</div>
+                
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

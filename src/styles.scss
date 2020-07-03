@@ -1,0 +1,25 @@
+/*custom Sass*/
+@import "saas/variables";
+
+@import "saas/mixins";
+@import "saas/media_query";
+
+/*plugin css*/
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import '~perfect-scrollbar/css/perfect-scrollbar.css';
+
+@import "saas/main.scss";
+
+/*custom css*/
+@import "saas/customBootstrap.scss";
+@import "saas/allComponents.scss";
+@import "saas/web_allComponents.scss";
+@import "saas/iconStyles.scss";
+@import "saas/utility.scss";
+@import "assets/fonts/DS-iconfont.css";
+
+@import "@material/tab-bar/dist/mdc.tab-bar.css";
+@import "@material/tab-scroller/dist/mdc.tab-scroller.css";
+@import "@material/tab-indicator/dist/mdc.tab-indicator.css";
+@import "@material/tab/dist/mdc.tab.css";
+ 

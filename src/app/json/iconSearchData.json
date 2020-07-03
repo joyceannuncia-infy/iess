@@ -1,0 +1,1850 @@
+[
+{
+"Catagory": "Alert",
+"CatagoryList":[
+ {
+ "id": 1,
+ "name": "Information",
+ "tag": ["Information"],
+ "iconClass": "info-big-icon",
+ "uniCode": "e0a4",
+ "SVG": "info-big-icon"
+ },
+ {
+ "id": 2,
+ "name": "Alert",
+ "tag": [ "Alert", "Warning" ],
+ "iconClass": "alert-icon",
+ "uniCode": "e004",
+ "SVG": "alert-icon"
+ },
+ {
+ "id": 3,
+ "name": "Success",
+ "tag": ["Success"],
+ "iconClass": "success-big-icon",
+ "uniCode": "e0ca",
+ "SVG": "success-big-icon"
+ },
+ {
+ "id": 4,
+ "name": "Error",
+ "tag": ["Error"],
+ "iconClass": "error-big-icon",
+ "uniCode": "e01a",
+ "SVG": "error-big-icon"
+ },
+ {
+ "id": 5,
+ "name": "Notification",
+ "tag": ["Notification","Bell"],
+ "iconClass": "notification-icon",
+ "uniCode": "e01a",
+ "SVG": "notification-icon"
+ },
+ {
+ "id": 6,
+ "name": "Hint",
+ "tag": ["Idea", "Hint", "Solution"],
+ "iconClass": "icon_hint_idea",
+ "uniCode": "e01a",
+ "SVG": "icon_hint_idea"
+ },
+ {
+ "id": 7,
+ "name": "Information - color",
+ "tag": ["Information - color"],
+ "iconClass": "icon_color_info blue",
+ "uniCode": "e01a",
+ "SVG": "icon_color_info"
+ },
+ {
+ "id": 8,
+ "name": "Alert - color",
+ "tag": ["Warning - color", "Alert - color"],
+ "iconClass": "icon_warning yellow",
+ "uniCode": "e01a",
+ "SVG": "icon_warning"
+ },
+ {
+ "id": 9,
+ "name": "Success - color",
+ "tag": ["Success - color"],
+ "iconClass": "icon_color_success green",
+ "uniCode": "e01a",
+ "SVG": "icon_color_success"
+ },
+ {
+ "id": 10,
+ "name": "Error - color",
+ "tag": ["Error - color"],
+ "iconClass": "icon_color_error red",
+ "uniCode": "e01a",
+ "SVG": "icon_color_error"
+ },
+ {
+ "id": 11,
+ "name": "Time - color",
+ "tag": ["Waiting - color", "Time - color", "Hold - color"],
+ "iconClass": "icon_color_pending yellow",
+ "uniCode": "e01a",
+ "SVG": "icon_color_pending"
+ },
+ {
+ "id": 12,
+ "name": "In progress - color",
+ "tag": ["In progress - color"],
+ "iconClass": "icon_in-progress blue",
+ "uniCode": "e01a",
+ "SVG": "icon_in-progress"
+ }
+ 
+]
+},
+{
+"Catagory": "Media and Communication",
+"CatagoryList":[
+ {
+ "id": 13,
+ "name": "Call",
+ "tag": ["Call","Phone"],
+ "iconClass": "call-icon",
+ "uniCode": "e0a4",
+ "SVG": "call-icon"
+ },
+ {
+ "id": 14,
+ "name": "Callback",
+ "tag": [ "Callback" ],
+ "iconClass": "callback-icon",
+ "uniCode": "e004",
+ "SVG": "callback-icon"
+ },
+ {
+ "id": 15,
+ "name": "Email",
+ "tag": [ "Email","mail" ],
+ "iconClass": "mail-icon",
+ "uniCode": "e004",
+ "SVG": "mail-icon"
+ },
+ {
+ "id": 16,
+ "name": "Video",
+ "tag": [ "Play","Video" ],
+ "iconClass": "video-icon",
+ "uniCode": "e004",
+ "SVG": "video-icon"
+ },
+ {
+ "id": 17,
+ "name": "Pause",
+ "tag": [ "Pause" ],
+ "iconClass": "icon-pause",
+ "uniCode": "e004",
+ "SVG": "icon-pause"
+ },
+ {
+ "id": 18,
+ "name": "Mobile",
+ "tag": [ "Mobile", "Cell Phone" ],
+ "iconClass": "icon-mobile",
+ "uniCode": "e004",
+ "SVG": "icon-mobile"
+ },
+ {
+ "id": 19,
+ "name": "Video",
+ "tag": [ "Video" ],
+ "iconClass": "icon_video-call",
+ "uniCode": "e004",
+ "SVG": "icon_video-call"
+ },
+ {
+ "id": 20,
+ "name": "Send",
+ "tag": [ "Send" ],
+ "iconClass": "send-Icon",
+ "uniCode": "e004",
+ "SVG": "send-Icon"
+ },
+ {
+ "id": 21,
+ "name": "Comment",
+ "tag": [ "Feedback","Comment" ],
+ "iconClass": "comment-icon",
+ "uniCode": "e004",
+ "SVG": "comment-icon"
+ },
+ {
+ "id": 22,
+ "name": "Gallery",
+ "tag": [ "Gallery","Photo"	 ],
+ "iconClass": "gallery-icon",
+ "uniCode": "e004",
+ "SVG": "gallery-icon"
+ },
+ {
+ "id": 23,
+ "name": "Camera",
+ "tag": [ "Camera" ],
+ "iconClass": "camera-icon",
+ "uniCode": "e004",
+ "SVG": "camera-icon"
+ },
+ {
+ "id": 24,
+ "name": "Announcement",
+ "tag": [ "Announcement","Pulse" ],
+ "iconClass": "announcement-icon",
+ "uniCode": "e004",
+ "SVG": "announcement-icon"
+ },
+ {
+ "id": 25,
+ "name": "Mic",
+ "tag": [ "Mic","Voice" ],
+ "iconClass": "mic-icon",
+ "uniCode": "e004",
+ "SVG": "mic-icon"
+ },
+ {
+ "id": 26,
+ "name": "Article",
+ "tag": [ "Article","News","Portfolio" ],
+ "iconClass": "icon-news-article",
+ "uniCode": "e004",
+ "SVG": "icon-news-article"
+ },
+
+ {
+ "id": 27,
+ "name": "Document",
+ "tag": [ "Document","File","Docs","Employee docs" ],
+ "iconClass": "document-icon",
+ "uniCode": "e004",
+ "SVG": "document-icon"
+ },
+ {
+ "id": 28,
+ "name": "Laptop",
+ "tag": [ "Laptop" ],
+ "iconClass": "icon_laptop",
+ "uniCode": "e004",
+ "SVG": "icon_laptop"
+ },
+ {
+ "id": 29,
+ "name": "Approved Document",
+ "tag": [ "Approved Document","Joining Docs" ],
+ "iconClass": "icon_approved_docs",
+ "uniCode": "e004",
+ "SVG": "icon_approved_docs"
+ },
+ {
+ "id": 30,
+ "name": "Wifi",
+ "tag": [ "Wifi","Internet","Broadband" ],
+ "iconClass": "icon_broadband_wifi",
+ "uniCode": "e004",
+ "SVG": "icon_broadband_wifi"
+ },
+ {
+ "id": 31,
+ "name": "Mic Mute",
+ "tag": [ "Mic Mute" ],
+ "iconClass": "icon-mute",
+ "uniCode": "e004",
+ "SVG": "icon-mute"
+ },
+ {
+ "id": 32,
+ "name": "Blog",
+ "tag": [ "Blog" ],
+ "iconClass": "icon_blog",
+ "uniCode": "e004",
+ "SVG": "icon_blog"
+ },
+ {
+ "id": 33,
+ "name": "Helpdesk",
+ "tag": [ "Helpdesk","Support","Technical support" ],
+ "iconClass": "icon_support_helpdesk",
+ "uniCode": "e004",
+ "SVG": "icon_support_helpdesk"
+ }
+]
+},
+{
+"Catagory": "Editor",
+"CatagoryList":[
+ {
+ "id": 34,
+ "name": "Edit",
+ "tag": ["Edit","Pencil"],
+ "iconClass": "edit-icon",
+ "uniCode": "e0a4",
+ "SVG": "edit-icon"
+ },
+ {
+ "id": 35,
+ "name": "Attachment",
+ "tag": [ "Attachment", "Attach"],
+ "iconClass": "attachment-icon",
+ "uniCode": "e004",
+ "SVG": "attachment-icon"
+ },
+ {
+ "id": 36,
+ "name": "Copy",
+ "tag": ["Copy"],
+ "iconClass": "copy-icon",
+ "uniCode": "e0ca",
+ "SVG": "copy-icon"
+ },
+ {
+ "id": 37,
+ "name": "Share",
+ "tag": ["Share"],
+ "iconClass": "icon-share",
+ "uniCode": "e01a",
+ "SVG": "icon-share"
+ },
+ {
+ "id": 38,
+ "name": "Filter",
+ "tag": ["Filter"],
+ "iconClass": "filter-icon",
+ "uniCode": "e01a",
+ "SVG": "filter-icon"
+ },
+ {
+ "id": 39,
+ "name": "Delete",
+ "tag": ["Delete"],
+ "iconClass": "delete-sm-icon",
+ "uniCode": "e01a",
+ "SVG": "delete-sm-icon"
+ }
+ ,
+ {
+ "id": 40,
+ "name": "Hamburger",
+ "tag": ["Hamburger"],
+ "iconClass": "icon-Hamburger",
+ "uniCode": "e01a",
+ "SVG": "icon-Hamburger"
+ }
+ ,
+ {
+ "id": 41,
+ "name": "Link",
+ "tag": ["Link"],
+ "iconClass": "icon_link",
+ "uniCode": "e01a",
+ "SVG": "icon_link"
+ }
+ ,
+ {
+ "id": 42,
+ "name": "Like",
+ "tag": ["Like"],
+ "iconClass": "icon-like",
+ "uniCode": "e01a",
+ "SVG": "icon-like"
+ }
+ ,
+ {
+ "id": 43,
+ "name": "Chat",
+ "tag": ["Chat"],
+ "iconClass": "chat-icon",
+ "uniCode": "e01a",
+ "SVG": "chat-icon"
+ },
+ {
+ "id": 44,
+ "name": "Search",
+ "tag": ["Search"],
+ "iconClass": "search-icon",
+ "uniCode": "e0a4",
+ "SVG": "search-icon"
+ },
+ {
+ "id": 45,
+ "name": "Close",
+ "tag": [ "Close"],
+ "iconClass": "close-icon",
+ "uniCode": "e004",
+ "SVG": "close-icon"
+ },
+ {
+ "id": 46,
+ "name": "Tick",
+ "tag": ["Tick", "OK", "Right"],
+ "iconClass": "icon-tick-dark",
+ "uniCode": "e0ca",
+ "SVG": "icon-tick-dark"
+ },
+ {
+ "id": 47,
+ "name": "Overflow menu",
+ "tag": ["Overflow menu", "Menu"],
+ "iconClass": "v-menu-icon",
+ "uniCode": "e0ca",
+ "SVG": "v-menu-icon"
+ },
+ {
+ "id": 48,
+ "name": "More option menu",
+ "tag": ["More option menu","Menu"],
+ "iconClass": "inprogress-icon",
+ "uniCode": "e01a",
+ "SVG": "inprogress-icon"
+ },
+ {
+ "id": 49,
+ "name": "Add",
+ "tag": ["Add"],
+ "iconClass": "icon-add",
+ "uniCode": "e01a",
+ "SVG": "icon-add"
+ },
+ {
+ "id": 50,
+ "name": "Date",
+ "tag": ["Date", "Calendar"],
+ "iconClass": "calendar-icon",
+ "uniCode": "e01a",
+ "SVG": "calendar-icon"
+ },
+ {
+ "id": 51,
+ "name": "Download",
+ "tag": ["Download"],
+ "iconClass": "download-icon",
+ "uniCode": "e01a",
+ "SVG": "download-icon"
+ },
+ {
+ "id": 52,
+ "name": "Upload",
+ "tag": ["Upload"],
+ "iconClass": "upload-icon",
+ "uniCode": "e01a",
+ "SVG": "upload-icon"
+ },
+ {
+ "id": 53,
+ "name": "Favorite",
+ "tag": ["Favorite", "Heart", "Fav"],
+ "iconClass": "icon-favorite",
+ "uniCode": "e01a",
+ "SVG": "icon-favorite"
+ },
+ {
+ "id": 54,
+ "name": "View",
+ "tag": ["Eye", "View", "See"],
+ "iconClass": "show-icon",
+ "uniCode": "e01a",
+ "SVG": "show-icon"
+ },
+ {
+ "id": 55,
+ "name": "Hide view",
+ "tag": ["Hide eye", "Hide view"],
+ "iconClass": "hide-icon",
+ "uniCode": "e0a4",
+ "SVG": "hide-icon"
+ },
+ {
+ "id": 56,
+ "name": "Star",
+ "tag": [ "Star", "Rating" ],
+ "iconClass": "star-icon",
+ "uniCode": "e004",
+ "SVG": "star-icon"
+ },
+ {
+ "id": 57,
+ "name": "Services",
+ "tag": ["Services", "Dashboard", "Applications", "Card view"],
+ "iconClass": "services-icon",
+ "uniCode": "e0ca",
+ "SVG": "services-icon"
+ },
+ {
+ "id": 58,
+ "name": "Notepad",
+ "tag": ["Notepad"],
+ "iconClass": "icon-notepad",
+ "uniCode": "e01a",
+ "SVG": "icon-notepad"
+ },
+ {
+ "id": 59,
+ "name": "Bookmark",
+ "tag": ["Bookmark"],
+ "iconClass": "icon-bookmark",
+ "uniCode": "e01a",
+ "SVG": "icon-bookmark"
+ },
+ {
+ "id": 60,
+ "name": "Form",
+ "tag": ["Survey", "Form, List", "Checklist", "Todo / To-do list"],
+ "iconClass": "icon-form",
+ "uniCode": "e01a",
+ "SVG": "icon-form"
+ },
+ {
+ "id": 61,
+ "name": "Adjustment",
+ "tag": ["Adjustment"],
+ "iconClass": "icon_adjustment",
+ "uniCode": "e01a",
+ "SVG": "icon_adjustment"
+ },
+ {
+ "id": 62,
+ "name": "Grid View",
+ "tag": ["Grid View"],
+ "iconClass": "icon_grid_view",
+ "uniCode": "e01a",
+ "SVG": "icon_grid_view"
+ },
+ {
+ "id": 63,
+ "name": "Setting",
+ "tag": ["Setting", "Process"],
+ "iconClass": "icon_setting",
+ "uniCode": "e01a",
+ "SVG": "icon_setting"
+ },
+ {
+ "id": 64,
+ "name": "Save",
+ "tag": ["Save", "Floppy disk"],
+ "iconClass": "icon_save",
+ "uniCode": "e01a",
+ "SVG": "icon_save"
+ },
+ {
+ "id": 65,
+ "name": "Zoom in",
+ "tag": ["Zoom in"],
+ "iconClass": "icon_zoom_in",
+ "uniCode": "e01a",
+ "SVG": "icon_zoom_in"
+ },
+ {
+ "id": 66,
+ "name": "Zoom out",
+ "tag": ["Zoom out"],
+ "iconClass": "icon_zoom_out",
+ "uniCode": "e01a",
+ "SVG": "icon_zoom_out"
+ },
+ {
+ "id": 67,
+ "name": "Minimize",
+ "tag": ["Minimize", "Normal view"],
+ "iconClass": "icon_minimise",
+ "uniCode": "e01a",
+ "SVG": "icon_minimise"
+ },
+ {
+ "id": 68,
+ "name": "Maximize",
+ "tag": ["Maximize","Fullscreen","Full view"],
+ "iconClass": "icon_maximise",
+ "uniCode": "e01a",
+ "SVG": "icon_maximise"
+ },
+ {
+ "id": 69,
+ "name": "Cloud upload",
+ "tag": ["Cloud upload", "Cloud storage"],
+ "iconClass": "icon_cloud_storage",
+ "uniCode": "e01a",
+ "SVG": "icon_cloud_storage"
+ },
+ {
+ "id": 70,
+ "name": "Cloud download", 
+ "tag": ["Cloud download"],
+ "iconClass": "icon_cloud_download",
+ "uniCode": "e01a",
+ "SVG": "icon_cloud_download"
+ },
+ {
+ "id": 71,
+ "name": "Star - filled",
+ "tag": ["Star - filled", "Rating - filled"],
+ "iconClass": "icon-star_filled",
+ "uniCode": "e01a",
+ "SVG": "icon-star_filled"
+ },
+ {
+ "id": 72,
+ "name": "Bookmark - filled",
+ "tag": ["Bookmark - filled"],
+ "iconClass": "icon-like_filled",
+ "uniCode": "e01a",
+ "SVG": "icon-like_filled"
+ },
+ {
+ "id": 73,
+ "name": "Heart - filled",
+ "tag": ["Heart - filled","Fav - filled","Favorite - filled"],
+ "iconClass": "icon-favorite_filled",
+ "uniCode": "e01a",
+ "SVG": "icon-favorite_filled"
+ },
+ {
+ "id": 74,
+ "name": "Chat - filled",
+ "tag": ["Chat - filled"],
+ "iconClass": "icon-comment_filled",
+ "uniCode": "e01a",
+ "SVG": "icon-comment_filled"
+ },
+ {
+ "id": 75,
+ "name": "Bookmark - filled",
+ "tag": ["Bookmark - filled"],
+ "iconClass": "icon-bookmark_filled",
+ "uniCode": "e01a",
+ "SVG": "icon-bookmark_filled"
+ }
+ 
+]
+},
+{
+"Catagory": "Navigation and maps",
+"CatagoryList":[
+ {
+ "id": 76,
+ "name": "Menu",
+ "tag": ["Menu","Hamburger"],
+ "iconClass": "menu-icon",
+ "uniCode": "e0a4",
+ "SVG": "menu-icon"
+ },
+ {
+ "id": 77,
+ "name": "Left arrow",
+ "tag": [ "Left arrow" ],
+ "iconClass": "back-icon",
+ "uniCode": "e004",
+ "SVG": "back-icon"
+ },
+ {
+ "id": 78,
+ "name": "Right arrow",
+ "tag": ["Right arrow"],
+ "iconClass": "link-arw-icon",
+ "uniCode": "e0ca",
+ "SVG": "link-arw-icon"
+ },
+ {
+ "id": 79,
+ "name": "Previous",
+ "tag": ["Previous"],
+ "iconClass": "previous-icon",
+ "uniCode": "e01a",
+ "SVG": "previous-icon"
+ },
+ {
+ "id": 80,
+ "name": "Next",
+ "tag": ["Next"],
+ "iconClass": "next-icon",
+ "uniCode": "e01a",
+ "SVG": "next-icon"
+ },
+ {
+ "id": 81,
+ "name": "Down",
+ "tag": ["Down", "Expand"],
+ "iconClass": "down-arw-icon",
+ "uniCode": "e01a",
+ "SVG": "down-arw-icon"
+ },
+ {
+ "id": 82,
+ "name": "Up",
+ "tag": ["Up", "Collapse"],
+ "iconClass": "up-arw-icon",
+ "uniCode": "e01a",
+ "SVG": "up-arw-icon"
+ },
+ {
+ "id": 83,
+ "name": "Address",
+ "tag": ["Address"],
+ "iconClass": "address-icon",
+ "uniCode": "e01a",
+ "SVG": "address-icon"
+ },
+ {
+ "id": 84,
+ "name": "Location",
+ "tag": ["Location", "Map", "Pin"],
+ "iconClass": "location-icon",
+ "uniCode": "e01a",
+ "SVG": "location-icon"
+ },
+ {
+ "id": 85,
+ "name": "Relocation",
+ "tag": ["Relocation"],
+ "iconClass": "relocation-icon",
+ "uniCode": "e01a",
+ "SVG": "relocation-icon"
+ },
+ {
+ "id": 86,
+ "name": "Explore",
+ "tag": ["Explore", "Compass"],
+ "iconClass": "icon_Explore",
+ "uniCode": "e01a",
+ "SVG": "icon_Explore"
+ },
+ {
+ "id": 87,
+ "name": "Globe",
+ "tag": ["Globe", "World"],
+ "iconClass": "icon_globe",
+ "uniCode": "e01a",
+ "SVG": "icon_globe"
+ }
+]
+},
+{
+"Catagory": "Travel and accommodation",
+"CatagoryList":[
+ {
+ "id": 88,
+ "name": "Car",
+ "tag": ["Car", "Cab"],
+ "iconClass": "car-icon",
+ "uniCode": "e0a4",
+ "SVG": "car-icon"
+ },
+ {
+ "id": 89,
+ "name": "Bus",
+ "tag": [ "Bus" ],
+ "iconClass": "buspass-icon",
+ "uniCode": "e004",
+ "SVG": "buspass-icon"
+ },
+ {
+ "id": 90,
+ "name": "Train",
+ "tag": ["Train", "Railway"],
+ "iconClass": "train-icon",
+ "uniCode": "e0ca",
+ "SVG": "train-icon"
+ },
+ {
+ "id": 91,
+ "name": "Flight",
+ "tag": ["Flight", "Business travel"],
+ "iconClass": "flight-icon",
+ "uniCode": "e01a",
+ "SVG": "flight-icon"
+ },
+ {
+ "id": 92,
+ "name": "Accommodation",
+ "tag": ["Accommodation","Bed", "Hotel", "Stay"],
+ "iconClass": "accommodation-icon",
+ "uniCode": "e01a",
+ "SVG": "accommodation-icon"
+ },
+ {
+ "id": 93,
+ "name": "Home",
+ "tag": ["Home"],
+ "iconClass": "home-icon",
+ "uniCode": "e01a",
+ "SVG": "home-icon"
+ },
+ {
+ "id": 94,
+ "name": "i9",
+ "tag": ["i9"],
+ "iconClass": "i9-icon",
+ "uniCode": "e01a",
+ "SVG": "i9-icon"
+ },
+ {
+ "id": 95,
+ "name": "Parking",
+ "tag": ["Parking"],
+ "iconClass": "parking-icon",
+ "uniCode": "e01a",
+ "SVG": "parking-icon"
+ },
+ {
+ "id": 96,
+ "name": "Travel",
+ "tag": ["Luggage bag", "Travel", "Briefcase", "Suitcase", "Work Experience"],
+ "iconClass": "travel-icon",
+ "uniCode": "e01a",
+ "SVG": "travel-icon"
+ },
+ {
+ "id": 97,
+ "name": "Passport",
+ "tag": ["Passport"],
+ "iconClass": "passport-icon",
+ "uniCode": "e01a",
+ "SVG": "passport-icon"
+ }
+]
+},
+{
+"Catagory": "Identity",
+"CatagoryList":[
+ {
+ "id": 98,
+ "name": "SSN-card",
+ "tag": ["SSN card", "ID proof", "PAN card"],
+ "iconClass": "ssn-icon",
+ "uniCode": "e0a4",
+ "SVG": "ssn-icon"
+ },
+ {
+ "id": 99,
+ "name": "ID card",
+ "tag": [ "Gate pass", "ID card", "Temp / Temporary ID card" ],
+ "iconClass": "id-badge-icon",
+ "uniCode": "e004",
+ "SVG": "id-badge-icon"
+ }
+]
+},
+{
+"Catagory": "Misc",
+"CatagoryList":[
+ {
+ "id": 100,
+ "name": "Time",
+ "tag": ["Time", "Clock"],
+ "iconClass": "icon-time",
+ "uniCode": "e0a4",
+ "SVG": "icon-time"
+ },
+ {
+ "id": 101,
+ "name": "Hand",
+ "tag": [ "Hand", "Click" ],
+ "iconClass": "hand-icon",
+ "uniCode": "e004",
+ "SVG": "hand-icon"
+ },
+ {
+ "id": 102,
+ "name": "Food",
+ "tag": [ "Food", "Restaurant", "Meal" ],
+ "iconClass": "food-icon",
+ "uniCode": "e004",
+ "SVG": "food-icon"
+ },
+ {
+ "id": 103,
+ "name": "Forward",
+ "tag": [ "Forward" ],
+ "iconClass": "forward-icon",
+ "uniCode": "e004",
+ "SVG": "forward-icon"
+ },
+ {
+ "id": 104,
+ "name": "Simulator",
+ "tag": [ "Simulator" ],
+ "iconClass": "icon_simulator",
+ "uniCode": "e004",
+ "SVG": "icon_simulator"
+ },
+ {
+ "id": 105,
+ "name": "Versions",
+ "tag": [ "Versions" ],
+ "iconClass": "icon_versions",
+ "uniCode": "e004",
+ "SVG": "icon_versions"
+ },
+ {
+ "id": 106,
+ "name": "Languages",
+ "tag": [ "Languages" ],
+ "iconClass": "icon_languages",
+ "uniCode": "e004",
+ "SVG": "icon_languages"
+ },
+ {
+ "id": 107,
+ "name": "Keywords",
+ "tag": [ "Keywords" ],
+ "iconClass": "icon_keywords",
+ "uniCode": "e004",
+ "SVG": "icon_keywords"
+ },
+ {
+ "id": 108,
+ "name": "Skills & Interests",
+ "tag": [ "Skills & Interests" ],
+ "iconClass": "icon_skills_and_interest",
+ "uniCode": "e004",
+ "SVG": "icon_skills_and_interest"
+ },
+ {
+ "id": 109,
+ "name": "Project Party",
+ "tag": [ "Project Party" ],
+ "iconClass": "icon_project_party",
+ "uniCode": "e004",
+ "SVG": "icon_project_party"
+ },
+ {
+ "id": 110,
+ "name": "Technology",
+ "tag": [ "Technology" ],
+ "iconClass": "icon_Technology",
+ "uniCode": "e004",
+ "SVG": "icon_Technology"
+ },
+ {
+ "id": 111,
+ "name": "FAQ",
+ "tag": [ "FAQ","Quiz" ],
+ "iconClass": "icon_FAQ",
+ "uniCode": "e004",
+ "SVG": "icon_FAQ"
+ },
+ {
+ "id": 112,
+ "name": "Data privacy",
+ "tag": [ "Data privacy" ],
+ "iconClass": "icon_DataPrivacy",
+ "uniCode": "e004",
+ "SVG": "icon_DataPrivacy"
+ },
+ {
+ "id": 113,
+ "name": "Flag",
+ "tag": [ "Flag" ],
+ "iconClass": "icon_Flag",
+ "uniCode": "e004",
+ "SVG": "icon_Flag"
+ }
+]
+},
+{
+"Catagory": "Charts and graphs",
+"CatagoryList":[
+ {
+ "id": 114,
+ "name": "Performance",
+ "tag": ["Performance", "Stats", "Bar Graph", "Growth"],
+ "iconClass": "graph-icon",
+ "uniCode": "e0a4",
+ "SVG": "graph-icon"
+ },
+ {
+ "id": 115,
+ "name": "Tree chart",
+ "tag": [ "Tree chart", "Flow Chart", "Organizational Chart", "Hierarchy" ],
+ "iconClass": "tree-icon",
+ "uniCode": "e004",
+ "SVG": "tree-icon"
+ }
+]
+},
+{
+"Catagory": "Policy and security",
+"CatagoryList":[
+ {
+ "id": 116,
+ "name": "Fingerprint",
+ "tag": ["Fingerprint","Access"],
+ "iconClass": "aadhar-icon",
+ "uniCode": "e0a4",
+ "SVG": "aadhar-icon"
+ },
+ {
+ "id": 117,
+ "name": "Password",
+ "tag": [ "Lock", "Security", "Password" ],
+ "iconClass": "icon-password",
+ "uniCode": "e004",
+ "SVG": "icon-password"
+ },
+ {
+ "id": 118,
+ "name": "Policy",
+ "tag": ["Security", "Policy", "BCMS", "ILMS"],
+ "iconClass": "policy-icon",
+ "uniCode": "e0a4",
+ "SVG": "policy-icon"
+ },
+ {
+ "id": 119,
+ "name": "NSR",
+ "tag": [ "NSR" ],
+ "iconClass": "nsr-icon",
+ "uniCode": "e004",
+ "SVG": "nsr-icon"
+ },
+ {
+ "id": 120,
+ "name": "Terms and Conditions",
+ "tag": ["Terms and Conditions"],
+ "iconClass": "icon-terms-conditions-range",
+ "uniCode": "e0a4",
+ "SVG": "icon-terms-conditions-range"
+ },
+ {
+ "id": 121,
+ "name": "Unlock",
+ "tag": ["Unlock"],
+ "iconClass": "icon_AccountUnlock",
+ "uniCode": "e0a4",
+ "SVG": "icon_AccountUnlock"
+ }
+]
+},
+{
+"Catagory": "People",
+"CatagoryList":[
+ {
+ "id": 122,
+ "name": "Person",
+ "tag": ["Person", "Profile"],
+ "iconClass": "personal-icon",
+ "uniCode": "e0a4",
+ "SVG": "personal-icon"
+ },
+ {
+ "id": 123,
+ "name": "Group of people",
+ "tag": ["Group of people", "Family", "Team", "Dependents", "My Referrals"],
+ "iconClass": "team-icon",
+ "uniCode": "e0a4",
+ "SVG": "team-icon"
+ },
+ {
+ "id": 124,
+ "name": "Accessibility",
+ "tag": ["Disabled", "Accessibility"],
+ "iconClass": "disability-icon",
+ "uniCode": "e0a4",
+ "SVG": "disability-icon"
+ },
+ {
+ "id": 125,
+ "name": "Profile pic",
+ "tag": ["Profile pic"],
+ "iconClass": "icon_color_avatar",
+ "uniCode": "e0a4",
+ "SVG": "icon_color_avatar"
+ }
+]
+},
+{
+"Catagory": "Commerce",
+"CatagoryList":[
+ {
+ "id": 126,
+ "name": "Debit card",
+ "tag": ["Debit card"],
+ "iconClass": "icon-debit-card",
+ "uniCode": "e0a4",
+ "SVG": "icon-debit-card"
+ },
+ {
+ "id": 126,
+ "name": "Credit card",
+ "tag": [ "Credit card" ],
+ "iconClass": "icon-credit-card",
+ "uniCode": "e004",
+ "SVG": "icon-credit-card"
+ },
+ {
+ "id": 127,
+ "name": "Payment Receipt",
+ "tag": ["Bill", "Payment Receipt", "Allowance"],
+ "iconClass": "icon-bill",
+ "uniCode": "e0a4",
+ "SVG": "icon-bill"
+ },
+ {
+ "id": 128,
+ "name": "Payment",
+ "tag": [ "Wallet", "Payment", "Money" ],
+ "iconClass": "icon-Superannuation",
+ "uniCode": "e004",
+ "SVG": "icon-Superannuation"
+ },
+ {
+ "id": 129,
+ "name": "Payroll",
+ "tag": ["Loans", "Invoice", "Payroll", "Money"],
+ "iconClass": "icon-payslip",
+ "uniCode": "e0a4",
+ "SVG": "icon-payslip"
+ },
+ {
+ "id": 130,
+ "name": "W4",
+ "tag": ["W4"],
+ "iconClass": "w4-icon",
+ "uniCode": "e0a4",
+ "SVG": "w4-icon"
+ },
+ {
+ "id": 131,
+ "name": "Bank",
+ "tag": ["Bank"],
+ "iconClass": "bank-icon",
+ "uniCode": "e0a4",
+ "SVG": "bank-icon"
+ },
+ {
+ "id": 132,
+ "name": "Receipt",
+ "tag": [ "Receipt" ],
+ "iconClass": "icon_receipt",
+ "uniCode": "e004",
+ "SVG": "icon_receipt"
+ }
+]
+},
+{
+"Catagory": "Education",
+"CatagoryList":[
+ {
+ "id": 133,
+ "name": "Education",
+ "tag": ["Education"],
+ "iconClass": "education-icon",
+ "uniCode": "e0a4",
+ "SVG": "education-icon"
+ },
+ {
+ "id": 134,
+ "name": "Education discontinue",
+ "tag": [ "Education discontinue" ],
+ "iconClass": "icon-education-gaps-dark",
+ "uniCode": "e004",
+ "SVG": "icon-education-gaps-dark"
+ }
+]
+},
+{
+"Catagory": "Rewards and recognition",
+"CatagoryList":[
+ {
+ "id": 135,
+ "name": "Appreciation",
+ "tag": ["Appreciation", "Badge", "Medal", "Rewards"],
+ "iconClass": "icon-appreciate",
+ "uniCode": "e0a4",
+ "SVG": "icon-appreciate"
+ },
+ {
+ "id": 136,
+ "name": "Award",
+ "tag": [ "Award", "Trophy" ],
+ "iconClass": "icon-award",
+ "uniCode": "e004",
+ "SVG": "icon-award"
+ },
+ {
+ "id": 137,
+ "name": "Certificate",
+ "tag": [ "Certificate", "Certification" ],
+ "iconClass": "icon_certificate",
+ "uniCode": "e004",
+ "SVG": "icon_certificate"
+ }
+]
+},
+{
+"Catagory": "Faces",
+"CatagoryList":[
+ {
+ "id": 138,
+ "name": "Feedback_gray_1",
+ "tag": ["Feedback_gray_1"],
+ "iconClass": "smiley1-icon",
+ "uniCode": "e0a4",
+ "SVG": "smiley1-icon"
+ },
+ {
+ "id": 139,
+ "name": "Feedback_gray_2",
+ "tag": ["Feedback_gray_2"],
+ "iconClass": "smiley2-icon",
+ "uniCode": "e0a4",
+ "SVG": "smiley2-icon"
+ },
+ {
+ "id": 140,
+ "name": "Feedback_gray_3",
+ "tag": ["Feedback_gray_3"],
+ "iconClass": "smiley3-icon",
+ "uniCode": "e0a4",
+ "SVG": "smiley3-icon"
+ },{
+ "id": 141,
+ "name": "Feedback_gray_4",
+ "tag": ["Feedback_gray_4"],
+ "iconClass": "smiley4-icon",
+ "uniCode": "e0a4",
+ "SVG": "smiley4-icon"
+ },
+ {
+ "id": 142,
+ "name": "Feedback_gray_5",
+ "tag": ["Feedback_gray_5"],
+ "iconClass": "smiley5-icon",
+ "uniCode": "e0a4",
+ "SVG": "smiley5-icon"
+ },
+ {
+ "id": 143,
+ "name": "Feedback_color_1",
+ "tag": ["Feedback_color_1"],
+ "iconClass": "smiley1-icon lightyellow",
+ "uniCode": "e0a4",
+ "SVG": "smiley1-icon"
+ },{
+ "id": 144,
+ "name": "Feedback_color_2",
+ "tag": ["Feedback_color_2"],
+ "iconClass": "smiley2-icon lightyellow",
+ "uniCode": "e0a4",
+ "SVG": "smiley2-icon"
+ },
+ {
+ "id": 145,
+ "name": "Feedback_color_3",
+ "tag": ["Feedback_color_3"],
+ "iconClass": "smiley3-icon lightyellow",
+ "uniCode": "e0a4",
+ "SVG": "smiley3-icon"
+ },
+ {
+ "id": 146,
+ "name": "Feedback_color_4",
+ "tag": ["Feedback_color_4"],
+ "iconClass": "smiley4-icon lightyellow",
+ "uniCode": "e0a4",
+ "SVG": "smiley4-icon"
+ },
+ {
+ "id": 147,
+ "name": "Feedback_color_5",
+ "tag": ["Feedback_color_5"],
+ "iconClass": "smiley5-icon lightyellow",
+ "uniCode": "e0a4",
+ "SVG": "smiley5-icon"
+ }
+]
+},
+{
+"Catagory": "Social",
+"CatagoryList":[
+ {
+ "id": 148,
+ "name": "Teams",
+ "tag": ["Teams"],
+ "iconClass": "icon_teams",
+ "uniCode": "e0a4",
+ "SVG": "icon_teams"
+ },
+ {
+ "id": 149,
+ "name": "Google",
+ "tag": [ "Google" ],
+ "iconClass": "icon_google",
+ "uniCode": "e004",
+ "SVG": "icon_google"
+ },
+ {
+ "id": 150,
+ "name": "Yammer",
+ "tag": [ "Yammer" ],
+ "iconClass": "icon_yammer",
+ "uniCode": "e004",
+ "SVG": "icon_yammer"
+ },{
+ "id": 151,
+ "name": "Twitter",
+ "tag": ["Twitter"],
+ "iconClass": "icon_twitter",
+ "uniCode": "e0a4",
+ "SVG": "icon_twitter"
+ },
+ {
+ "id": 152,
+ "name": "LinkedIn",
+ "tag": [ "LinkedIn" ],
+ "iconClass": "icon_linkedin",
+ "uniCode": "e004",
+ "SVG": "icon_linkedin"
+ },
+ {
+ "id": 153,
+ "name": "Facebook",
+ "tag": [ "Facebook" ],
+ "iconClass": "icon_facebook",
+ "uniCode": "e004",
+ "SVG": "icon_facebook"
+ },{
+ "id": 154,
+ "name": "Youtube",
+ "tag": ["Youtube"],
+ "iconClass": "icon_youtube",
+ "uniCode": "e0a4",
+ "SVG": "icon_youtube"
+ },
+ {
+ "id": 155,
+ "name": "Apple",
+ "tag": [ "Apple" ],
+ "iconClass": "icon_apple",
+ "uniCode": "e004",
+ "SVG": "icon_apple"
+ },
+ {
+ "id": 156,
+ "name": "Whatsapp",
+ "tag": [ "Whatsapp" ],
+ "iconClass": "icon_whatsapp",
+ "uniCode": "e004",
+ "SVG": "icon_whatsapp"
+ }
+]
+},
+{
+"Catagory": "Medical",
+"CatagoryList":[
+ {
+ "id": 157,
+ "name": "Medical Kit",
+ "tag": ["Medical Kit"],
+ "iconClass": "medical-icon",
+ "uniCode": "e0a4",
+ "SVG": "medical-icon"
+ }
+]
+},
+{
+"Catagory": "Services",
+"CatagoryList":[
+ {
+ "id": 158,
+ "name": "Awareness Quiz",
+ "tag": ["Awareness Quiz"],
+ "iconClass": "icon_AwarenessQuiz",
+ "uniCode": "e0a4",
+ "SVG": "icon_AwarenessQuiz"
+ },
+ {
+ "id": 159,
+ "name": "Account Directory",
+ "tag": ["Account Directory"],
+ "iconClass": "icon_AccountDirectory",
+ "uniCode": "e0a4",
+ "SVG": "icon_AccountDirectory"
+ },
+ {
+ "id": 160,
+ "name": "Account Unlock",
+ "tag": ["Account Unlock"],
+ "iconClass": "icon_AccountUnlock",
+ "uniCode": "e0a4",
+ "SVG": "icon_AccountUnlock"
+ },
+ {
+ "id": 161,
+ "name": "AHD",
+ "tag": ["AHD"],
+ "iconClass": "icon_AHD",
+ "uniCode": "e0a4",
+ "SVG": "icon_AHD"
+ },
+ {
+ "id": 162,
+ "name": "Gate pass",
+ "tag": ["Gate pass"],
+ "iconClass": "icon_GatePass",
+ "uniCode": "e0a4",
+ "SVG": "icon_GatePass"
+ },
+ {
+ "id": 163,
+ "name": "Benefits",
+ "tag": ["Benefits"],
+ "iconClass": "icon_Benefits",
+ "uniCode": "e0a4",
+ "SVG": "icon_Benefits"
+ },
+ {
+ "id": 164,
+ "name": "Global Helpdesk",
+ "tag": ["Global Helpdesk"],
+ "iconClass": "icon_GlobalHelpdesk",
+ "uniCode": "e0a4",
+ "SVG": "icon_GlobalHelpdesk"
+ },
+ {
+ "id": 165,
+ "name": "Health Insurance",
+ "tag": ["Health Insurance"],
+ "iconClass": "icon_HealthInsurance",
+ "uniCode": "e0a4",
+ "SVG": "icon_HealthInsurance"
+ },
+ {
+ "id": 166,
+ "name": "Hint",
+ "tag": ["Hint"],
+ "iconClass": "icon_Hint",
+ "uniCode": "e0a4",
+ "SVG": "icon_Hint"
+ },
+ {
+ "id": 167,
+ "name": "Night stay in campus",
+ "tag": ["Night stay in campus"],
+ "iconClass": "icon_NightStayInCampus",
+ "uniCode": "e0a4",
+ "SVG": "icon_NightStayInCampus"
+ },
+ {
+ "id": 168,
+ "name": "Late stay",
+ "tag": ["Late stay"],
+ "iconClass": "icon_LateStay",
+ "uniCode": "e0a4",
+ "SVG": "icon_LateStay"
+ },
+ {
+ "id": 169,
+ "name": "Loans",
+ "tag": ["Loans"],
+ "iconClass": "icon_Loans",
+ "uniCode": "e0a4",
+ "SVG": "icon_Loans"
+ },
+ {
+ "id": 170,
+ "name": "Performance",
+ "tag": ["Performance"],
+ "iconClass": "icon_Performance",
+ "uniCode": "e0a4",
+ "SVG": "icon_Performance"
+ },
+ {
+ "id": 171,
+ "name": "Service store",
+ "tag": ["Service store"],
+ "iconClass": "icon_ServiceStore",
+ "uniCode": "e0a4",
+ "SVG": "icon_ServiceStore"
+ },
+ {
+ "id": 172,
+ "name": "Weekend working",
+ "tag": ["Weekend working"],
+ "iconClass": "icon_WeekendWorking",
+ "uniCode": "e0a4",
+ "SVG": "icon_WeekendWorking"
+ },
+ {
+ "id": 173,
+ "name": "WFH",
+ "tag": ["WFH"],
+ "iconClass": "icon_WFH",
+ "uniCode": "e0a4",
+ "SVG": "icon_WFH"
+ },
+ {
+ "id": 174,
+ "name": "Tele conference",
+ "tag": ["Tele conference"],
+ "iconClass": "icon_TeleConference",
+ "uniCode": "e0a4",
+ "SVG": "icon_TeleConference"
+ },
+ {
+ "id": 175,
+ "name": "Timesheet",
+ "tag": ["Timesheet"],
+ "iconClass": "icon_Timesheet",
+ "uniCode": "e0a4",
+ "SVG": "icon_Timesheet"
+ },
+ {
+ "id": 176,
+ "name": "BCMS",
+ "tag": ["BCMS"],
+ "iconClass": "icon_BCMS",
+ "uniCode": "e0a4",
+ "SVG": "icon_BCMS"
+ },
+ {
+ "id": 177,
+ "name": "Be The Navigator",
+ "tag": ["Be The Navigator"],
+ "iconClass": "icon_BeTheNavigator",
+ "uniCode": "e0a4",
+ "SVG": "icon_BeTheNavigator"
+ },
+ {
+ "id": 178,
+ "name": "ConnectInfy",
+ "tag": ["ConnectInfy"],
+ "iconClass": "icon_ConnectInfy",
+ "uniCode": "e0a4",
+ "SVG": "icon_ConnectInfy"
+ },
+ {
+ "id": 179,
+ "name": "Covid 19 contribution",
+ "tag": ["Covid 19 contribution"],
+ "iconClass": "icon_Covid19Contribution",
+ "uniCode": "e0a4",
+ "SVG": "icon_Covid19Contribution"
+ },
+ {
+ "id": 180,
+ "name": "Covid Declaration",
+ "tag": ["Covid Declaration"],
+ "iconClass": "icon_CovidDeclaration",
+ "uniCode": "e0a4",
+ "SVG": "icon_CovidDeclaration"
+ },
+ {
+ "id": 181,
+ "name": "Demand",
+ "tag": ["Demand"],
+ "iconClass": "icon_Demand",
+ "uniCode": "e0a4",
+ "SVG": "icon_Demand"
+ },
+ {
+ "id": 182,
+ "name": "Glomo",
+ "tag": ["Glomo"],
+ "iconClass": "icon_glomo",
+ "uniCode": "e0a4",
+ "SVG": "icon_glomo"
+ },
+ {
+ "id": 183,
+ "name": "Hive",
+ "tag": ["Hive"],
+ "iconClass": "icon_Hive",
+ "uniCode": "e0a4",
+ "SVG": "icon_Hive"
+ },
+ {
+ "id": 184,
+ "name": "iCount",
+ "tag": ["iCount"],
+ "iconClass": "icon_icount",
+ "uniCode": "e0a4",
+ "SVG": "icon_icount"
+ },
+ {
+ "id": 185,
+ "name": "ILMS",
+ "tag": ["ILMS"],
+ "iconClass": "icon_ILMS",
+ "uniCode": "e0a4",
+ "SVG": "icon_ILMS"
+ },
+ {
+ "id": 186,
+ "name": "Team's KPI Validation",
+ "tag": ["Team's KPI Validation"],
+ "iconClass": "icon_TeamsKPIValidation",
+ "uniCode": "e0a4",
+ "SVG": "icon_TeamsKPIValidation"
+ },
+ {
+ "id": 187,
+ "name": "Strategic Intelligence",
+ "tag": ["Strategic Intelligence"],
+ "iconClass": "icon_StrategicIntelligence",
+ "uniCode": "e0a4",
+ "SVG": "icon_StrategicIntelligence"
+ },
+ {
+ "id": 188,
+ "name": "Pulse",
+ "tag": ["Pulse"],
+ "iconClass": "icon_Pulse",
+ "uniCode": "e0a4",
+ "SVG": "icon_Pulse"
+ },
+ {
+ "id": 189,
+ "name": "Litmus",
+ "tag": ["Litmus"],
+ "iconClass": "icon_Litmus",
+ "uniCode": "e0a4",
+ "SVG": "icon_Litmus"
+ },
+ {
+ "id": 190,
+ "name": "PMS",
+ "tag": ["PMS"],
+ "iconClass": "icon_PMS",
+ "uniCode": "e0a4",
+ "SVG": "icon_PMS"
+ },
+ {
+ "id": 191,
+ "name": "Insider Trading",
+ "tag": ["Insider Trading"],
+ "iconClass": "icon_InsiderTrading",
+ "uniCode": "e0a4",
+ "SVG": "icon_InsiderTrading"
+ },
+ {
+ "id": 192,
+ "name": "Infosys Connect 2019",
+ "tag": ["Infosys Connect 2019"],
+ "iconClass": "icon_InfosysConnect",
+ "uniCode": "e0a4",
+ "SVG": "icon_InfosysConnect"
+ },
+ {
+ "id": 193,
+ "name": "iMother",
+ "tag": ["iMother"],
+ "iconClass": "icon_iMother",
+ "uniCode": "e0a4",
+ "SVG": "icon_iMother"
+ },
+ {
+ "id": 194,
+ "name": "UPSI",
+ "tag": ["UPSI"],
+ "iconClass": "icon_UPSI",
+ "uniCode": "e0a4",
+ "SVG": "icon_UPSI"
+ },
+ {
+ "id": 195,
+ "name": "Account360",
+ "tag": ["Account360"],
+ "iconClass": "icon_Account360",
+ "uniCode": "e0a4",
+ "SVG": "icon_Account360"
+ },
+ {
+ "id": 196,
+ "name": "Project360",
+ "tag": ["Project360"],
+ "iconClass": "icon_Project360",
+ "uniCode": "e0a4",
+ "SVG": "icon_Project360"
+ },
+ {
+ "id": 197,
+ "name": "Manage Sales",
+ "tag": ["Manage Sales"],
+ "iconClass": "icon_ManageSales",
+ "uniCode": "e0a4",
+ "SVG": "icon_ManageSales"
+ },
+ {
+ "id": 198,
+ "name": "Unified Search",
+ "tag": ["Unified Search"],
+ "iconClass": "icon_UnifiedSearch",
+ "uniCode": "e0a4",
+ "SVG": "icon_UnifiedSearch"
+ },
+ {
+ "id": 199,
+ "name": "IDS",
+ "tag": ["IDS"],
+ "iconClass": "icon_IDS",
+ "uniCode": "e0a4",
+ "SVG": "icon_IDS"
+ },
+ {
+ "id": 200,
+ "name": "Samaritan",
+ "tag": ["Samaritan"],
+ "iconClass": "icon_Samaritan",
+ "uniCode": "e0a4",
+ "SVG": "icon_Samaritan"
+ },
+ {
+ "id": 201,
+ "name": "World of Infosys",
+ "tag": ["World of Infosys"],
+ "iconClass": "icon_WorldOfInfosys",
+ "uniCode": "e0a4",
+ "SVG": "icon_WorldOfInfosys"
+ },
+ {
+ "id": 202,
+ "name": "Recorder",
+ "tag": ["Recorder"],
+ "iconClass": "icon_Recorder",
+ "uniCode": "e0a4",
+ "SVG": "icon_Recorder"
+ },
+ {
+ "id": 203,
+ "name": "Certifications (Q-Cert)",
+ "tag": ["Certifications (Q-Cert)"],
+ "iconClass": "icon_Certifications_Q-Cert",
+ "uniCode": "e0a4",
+ "SVG": "icon_Certifications_Q-Cert"
+ },
+ {
+ "id": 204,
+ "name": "BitLocker",
+ "tag": ["BitLocker"],
+ "iconClass": "icon_BitLocker",
+ "uniCode": "e0a4",
+ "SVG": "icon_BitLocker"
+ },
+ {
+ "id": 205,
+ "name": "Laptop Gate pass",
+ "tag": ["Laptop Gate pass"],
+ "iconClass": "icon_LaptopGatepass",
+ "uniCode": "e0a4",
+ "SVG": "icon_LaptopGatepass"
+ },
+ {
+ "id": 206,
+ "name": "Reference Letter",
+ "tag": ["Reference Letter"],
+ "iconClass": "icon_ReferenceLetter",
+ "uniCode": "e0a4",
+ "SVG": "icon_ReferenceLetter"
+ },
+ {
+ "id": 207,
+ "name": "Schedule Call",
+ "tag": ["Schedule Call"],
+ "iconClass": "Icon_ScheduleCall",
+ "uniCode": "e0a4",
+ "SVG": "Icon_ScheduleCall"
+ },
+ {
+ "id": 208,
+ "name": "Claims",
+ "tag": ["Claims"],
+ "iconClass": "icon_Claims",
+ "uniCode": "e0a4",
+ "SVG": "icon_Claims"
+ },
+ {
+ "id": 209,
+ "name": "Domestic/International Travel",
+ "tag": ["Domestic/International Travel"],
+ "iconClass": "icon-Domestic-InternationalTravel",
+ "uniCode": "e0a4",
+ "SVG": "icon-Domestic-InternationalTravel"
+ },
+ {
+ "id": 210,
+ "name": "Local Taxi",
+ "tag": ["Local Taxi"],
+ "iconClass": "icon-LocalTaxi",
+ "uniCode": "e0a4",
+ "SVG": "icon-LocalTaxi"
+ },
+ {
+ "id": 211,
+ "name": "Official Accommodation",
+ "tag": ["Official Accommodation"],
+ "iconClass": "icons-OfficialAccommodation",
+ "uniCode": "e0a4",
+ "SVG": "icons-OfficialAccommodation"
+ },
+ {
+ "id": 212,
+ "name": "Transport",
+ "tag": ["Transport"],
+ "iconClass": "icon-Transport",
+ "uniCode": "e0a4",
+ "SVG": "icon-Transport"
+ },
+ {
+ "id": 213,
+ "name": "Attendance",
+ "tag": ["Attendance"],
+ "iconClass": "icons-Attendance",
+ "uniCode": "e0a4",
+ "SVG": "icons-Attendance"
+ },
+ {
+ "id": 214,
+ "name": "Income Tax",
+ "tag": ["Income Tax"],
+ "iconClass": "icon-IncomeTax",
+ "uniCode": "e0a4",
+ "SVG": "icon-IncomeTax"
+ },
+ {
+ "id": 215,
+ "name": "Infosys Directory",
+ "tag": ["Infosys Directory"],
+ "iconClass": "icon_InfosysDirectory",
+ "uniCode": "e0a4",
+ "SVG": "icon_InfosysDirectory"
+ },
+ {
+ "id": 216,
+ "name": "Meal Voucher",
+ "tag": ["Meal Voucher"],
+ "iconClass": "icon_MealVoucher",
+ "uniCode": "e0a4",
+ "SVG": "icon_MealVoucher"
+ },
+ {
+ "id": 217,
+ "name": "Superannuation (SA)",
+ "tag": ["Superannuation (SA)"],
+ "iconClass": "icon-Superannuation",
+ "uniCode": "e0a4",
+ "SVG": "icon-Superannuation"
+ },
+ {
+ "id": 218,
+ "name": "Visitor Management System (VMS)",
+ "tag": ["Visitor Management System (VMS)"],
+ "iconClass": "icon_VisitorManagementSystem_VMS",
+ "uniCode": "e0a4",
+ "SVG": "icon_VisitorManagementSystem_VMS"
+ },
+ {
+ "id": 219,
+ "name": "Living Labs",
+ "tag": ["Living Labs"],
+ "iconClass": "icon_LivingLabs",
+ "uniCode": "e0a4",
+ "SVG": "icon_LivingLabs"
+ }
+]
+}		
+]

@@ -1,0 +1,398 @@
+/*icon round*/
+.avatarImageCircle {
+  @include icon-circle;
+  padding-top:0;
+}  
+
+.greyIcon-Circle{
+  @include icon-circle;
+  background: $wb-bggrey-lighter;
+}
+
+.whiteIcon-Circle{
+  @include icon-circle;
+  @extend %default-shadow;
+  background:$wb-bgcolor-white;
+}
+
+.whiteIcon-Circle-small{
+  @include icon-circle-small;
+  @extend %default-shadow;
+  background:$wb-bgcolor-white;
+} 
+
+.whiteIconNoshadow-Circle{
+  @include icon-circle;
+  background:$wb-bgcolor-white;
+}
+
+.badgeIcon-Circle{
+  @include icon-circle;
+  @extend %default-shadow;
+  width: 56px;
+  height: 56px;
+  background:$wb-bgcolor-white;
+  padding-top: 10px;
+  position: relative;
+  .notifications{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    top:0px;
+    right:0px;
+    font-size: 10px;
+    position: absolute;
+    display: block;
+  }
+}
+
+.disabledIcon-Circle{
+  @include icon-circle;
+  @extend %default-shadow;
+  background:$wb-bgcolor-white;
+}  
+
+.disabledIcon-Circle i,.disabledIcon {
+  opacity: 0.2;
+}
+
+
+
+.purpleIcon-Circle{
+  @include icon-circle;
+  background: $wb-bgcolor-lighter;
+}
+
+.purpleIconActive-Circle{
+  @include icon-circle;
+  @extend %active-shadow;
+  background: $wb-bgcolor-lighter;
+}
+
+.DSA_tabIcon-Circle{
+  @include icon-circle;
+  background: transparent;
+  border: 1px solid $wb-bgcolor-white;
+}  
+
+
+.circle24{
+  width:24px;
+  height:24px;
+}
+.circle24 .icon{
+margin-top: -4px;
+}
+  
+/*logo*/   
+.infy-logo-light{    
+  width: 66px;
+  height: 24px;    
+}
+
+.infy-me-logo{    
+  width: 95px;
+  height: 40px;    
+  font-size: 40px;   
+}
+
+/* Icon Styles Begin */
+.icon-list{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.icon-list li{
+  display: inline-block;
+  padding:1rem;
+  text-align: center;
+  background:$wb-bggrey-lightwhite;
+  margin: 0.5rem;
+  min-height: 130px;
+  vertical-align: top;
+}
+
+.icon-list.doc_icon-list{
+  li{
+    width: calc(100%/8);
+    min-height: 85px;   
+    background: $wb-bgcolor-white;         
+    .icon_name{
+      color: $wb-iconcolor-black;
+      margin: 8px 0 0;
+      font-size: $text-sm;
+      font-weight: $wb-text-regular;   
+      font-family: $wb-font-style-1;
+      font-style: normal;
+    }
+    .html_code,.html_unicode{
+      color: $wb-iconcolor-black;
+      margin: 8px 0 0;
+      font-size: $text-md;
+      font-weight: $wb-text-regular;   
+      font-family: $wb-font-style-1;
+      font-style: normal;
+    }
+   
+    
+  }
+}
+.iconScrollLi {
+  position: relative;
+}
+.iconCodeview{
+  display: none;
+  position: absolute;
+  left:0;
+  right:0;
+  padding:8px 8px 16px 8px;
+  bottom:100%;
+  z-index: 2;
+  background: $wb-bgcolor-white;
+  @extend %raised-shadow;
+  margin:4px;
+}
+.iconCodeview:after,.iconCodeview:before{
+  width: 0; 
+  height: 0; 
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent; 
+  position: absolute;
+  bottom:-8px;
+  left:46%; 
+  content:'';
+}
+.iconCodeview:after{
+  border-top: 10px solid $wb-bgcolor-white;
+}
+.iconCodeview:before{
+  border-top: 10px solid $wb-bggrey-lighter;
+  bottom:-10px;
+}
+.icon-list li.active{
+  border:1px solid $wb-bgcolor-dark;
+  .icon_name,>.icon{
+    /*color:$wb-iconcolor-dark;*/
+  }
+  
+}
+.icon-list li.active .iconCodeview{
+  display: block;
+}
+@media screen and (max-width:1366px){
+  .icon-list.doc_icon-list{
+    li{
+      width: calc(100%/6);
+    }
+  }
+}
+
+.w-grid-8-l {
+  width: calc(100%/7);
+}
+
+.icon{
+  display: block;
+  background-repeat: no-repeat!important;
+  margin: auto;
+  color: $wb-icongrey-light;  
+}
+
+.iconinline{
+  display: inline-block;
+}
+
+.icon.blue{
+  color: $wb-iconcolor-blue; 
+}
+
+.icon.purple{
+  color: $wb-iconcolor-dark; 
+}
+
+.icon.white{
+  color: $wb-iconcolor-white; 
+}
+
+.icon.red{
+  color: $wb-iconcolor-red; 
+}
+.icon.yellow{
+  color: $wb-iconcolor-yellow; 
+}
+.icon.lightyellow{
+  color: $wb-iconcolor-yellow; 
+}
+
+
+.icon.black{
+  color: $wb-iconcolor-black;    
+}
+
+.icon.dark-purple{
+  color: $wb-iconcolor-thick; 
+}
+
+.icon.red{
+  color: $wb-iconcolor-red;
+}
+
+.icon.green{
+  color: $wb-iconcolor-green;
+}  
+
+i{
+  font-style: normal;
+}
+
+/*icon position*/
+.icon.left{
+  background-position: left center
+}
+
+.icon.right{
+  background-position: right center
+}
+
+.icon.left8{
+  background-position: 8px 50%;
+}
+
+.icon.right8{
+  background-position: right 8px center;
+}
+
+.icon.left16{
+  background-position: 16px 50%;
+}
+
+.icon.right16{
+  background-position: right 16px center;
+  &:before{
+    position: absolute;
+    right: 16px;
+  }
+}
+
+.icon.center{
+  background-position: center center
+}
+
+.botRight{
+  background-position: right 10px bottom 6px;
+}
+
+.x-16{
+  width: 16px;
+  height: 16px;
+  font-size: 16px;
+}
+.x-20{
+  width: 20px;
+  height: 20px; 
+  font-size: 20px; 
+}
+
+.x-24{
+  width: 24px;
+  height: 24px; 
+  font-size: 24px; 
+}
+
+.x-32{
+  width: 32px;
+  height: 32px;
+  font-size: 32px;
+}
+
+.x-48{
+  width: 48px;
+  height: 48px;
+  font-size: 48px;
+}
+
+.x-56{
+  width: 56px;
+  height: 56px;
+  font-size: 56px;  
+}
+.x-64{
+  width: 64px;
+  height: 64px;
+  font-size: 64px;  
+}
+
+code{
+  display: block;
+  color: $wb-iconcolor-black!important;
+  text-align: left;
+  margin-top: 10px;
+}
+
+ul.icon-list.white-bg li {
+  background: $bggrey-dark;
+  code{
+    color: $wb-iconcolor-white!important;
+  }
+}
+
+a.icon:hover, a:hover{
+  text-decoration: none;
+}
+
+.icon.icon-close-mini{
+    font-size: 10px;
+    padding: 3px;
+}
+.icon-process-complete{    
+  color: $wb-iconcolor-green;
+}
+.icon-inprogressBlue{   
+  color: $wb-iconcolor-blue;
+}
+.icon-pending{  
+  color: $wb-iconcolor-yellow;
+}
+.icon-rejected{  
+  color: $wb-icongrey-midlight;
+}  
+.error-icon{ 
+  color: $wb-iconcolor-red;
+} 
+
+.smiley1-yellow-icon,
+.smiley2-yellow-icon,
+.smiley3-yellow-icon,
+.smiley4-yellow-icon,
+.smiley5-yellow-icon{
+  color: $wb-iconcolor-yellow; 
+}
+
+.smiley1-grey-icon,
+.smiley2-grey-icon,
+.smiley3-grey-icon,
+.smiley4-grey-icon,
+.smiley5-grey-icon{
+  color: $wb-icongrey-midlight;  
+}
+
+.tick-green-lg-icon{ 
+  color: $wb-iconcolor-green;
+}  
+
+.icon_smiley.selected .default,  .icon_smiley .yellow{
+  display: none;
+}
+
+.icon_smiley.selected .yellow{
+  display: block;
+}
+
+.icon_rating.selected .default,  .icon_rating .purple{
+  display: none;
+}
+
+.icon_rating.selected .purple{
+  display: block;
+}

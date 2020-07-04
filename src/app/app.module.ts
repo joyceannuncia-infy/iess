@@ -9,8 +9,10 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppMaterialModule} from './modules/app-material.module';
 import { AppPluginsModule} from './modules/app-plugins.module';
 import { AppBootstrapModule} from './modules/app-bootstrap.module';
-// import { InvestigationComponent } from './investigation/investigation.component';
-// import { MonitoringComponent } from './monitoring/monitoring.component';
+import { InvestigationComponent } from './investigation/investigation.component';
+import { MonitoringComponent } from './monitoring/monitoring.component';
+import { WorkStatsComponent } from './work-stats/work-stats.component';
+
 
 
 import { AppUtilServices } from './services/app-util.services';
@@ -46,7 +48,10 @@ import { ProfileComponent } from './profile/profile.component';
     ScrollSpyDirective,
     LoginComponent,
     TracerComponent,
-    ProfileComponent
+    ProfileComponent,
+    InvestigationComponent,
+    MonitoringComponent,
+    WorkStatsComponent
     
     
 

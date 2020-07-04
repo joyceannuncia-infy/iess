@@ -9,6 +9,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppMaterialModule} from './modules/app-material.module';
 import { AppPluginsModule} from './modules/app-plugins.module';
 import { AppBootstrapModule} from './modules/app-bootstrap.module';
+// import { InvestigationComponent } from './investigation/investigation.component';
+// import { MonitoringComponent } from './monitoring/monitoring.component';
 
 
 import { AppUtilServices } from './services/app-util.services';
@@ -25,6 +27,7 @@ import { ScrollSpyDirective } from './directive/scrollSpy/scrollSpy.directive';
 
 import { LoginComponent } from './login/login.component';
 import { TracerComponent } from './tracer/tracer.component';
+import { ProfileComponent } from './profile/profile.component';
 
 
 
@@ -42,7 +45,8 @@ import { TracerComponent } from './tracer/tracer.component';
     CollapseMenuDirective,
     ScrollSpyDirective,
     LoginComponent,
-    TracerComponent
+    TracerComponent,
+    ProfileComponent
     
     
 

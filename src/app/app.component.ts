@@ -127,6 +127,13 @@ ripcolor=this.codeCp.ripcolor;
       
        }
 
+      naviateToWorkStatus(eventObj) {
+        this.router.navigate(["work-stats"]);
+    }
+
+     openMonitoring(){
+      this.router.navigate(["monitor"]);
+    }
 
 }
       

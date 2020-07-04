@@ -79,7 +79,7 @@ export class LoginComponent implements OnInit {
     // this.username ='C0001'
     // this.password = 'Password';
 
-    this.router.navigate(["tracer"]);
+    // this.router.navigate(["tracer"]);
     
      
     this.setData(this.username)
@@ -100,7 +100,7 @@ export class LoginComponent implements OnInit {
       }
       else{
      
-        // this.router.navigate(["assignments"]);
+        this.router.navigate(["tracer"]);
       }
     }, error => {
               if (error.status == '501') {

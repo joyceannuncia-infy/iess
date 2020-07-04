@@ -1,0 +1,191 @@
+<section>
+    <h4 class="pt-3 pb-3">My Profile</h4>
+
+    <div class="row">
+
+        <div class="col-md-8 pb-6">     
+            <mat-card class="DSA_wb_card-widget">                            
+                <mat-card-content>
+
+                    <div class="row pb-2">
+                        <div class="col-md-2">
+                            <img src="assets/images/avatar1.png" class="float-left marR16" width="100" height="100"/>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="row">
+                                <span class="clearfix col-md-12">
+                                    <span class="DSA_wb_listLeft">
+                                    
+                                        <span class="DSA_wb_marginicon40">
+                                            <h2 class="DSA_wb_h2Header web-GreyDarkest DSA_wb_text-1line">Joe Kil</h2>
+                                            <span class="DSA_wb_caption web-GreyLight d-block marT4 DSA_wb_text-1line">Female</span>
+                                        </span> 
+                                    </span>
+                                    <span class="DSA_wb_vertical-RightCenter">
+                                        <a (click)="editProfile()" class="icon purple x-24 edit-icon marL16 float-left"></a>
+                                    </span>
+                                </span>
+                            </div>
+                            <br/>
+                            <div class="row">
+                                <span class="col-md-6">
+                                    <h6 class = "DSA_wb_caption web-GreyLight marT4">Phone Number</h6>
+                                    <h5 class = "DSA_wb_mainBodyTxtSM web-GreyDarkest padT8" *ngIf = "!editMode">123-456-789</h5>
+                                    <input type="text" class="marT8" *ngIf = "editMode">
+                                </span>  
+                                <span class="col-md-6">
+                                    <h6 class = "DSA_wb_caption web-GreyLight marT4">Email</h6>
+                                    <h5 class = "DSA_wb_mainBodyTxtSM web-GreyDarkest padT8" *ngIf = "!editMode">abc@gmail.com</h5>
+                                    <input type="text" class="marT8" *ngIf = "editMode">
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <div>
+                        <div class="pt-3 pb-3">
+                            <h5 class = "DSA_wb_mainBodyTxtSM web-GreyDarkest padT8">Language Details</h5>
+                        </div>
+
+                        <div class="row pb-3">
+                            <div class="col-md-4">
+                                <h6 class = "DSA_wb_caption web-GreyLight marT4">Primary Language</h6>
+                                <h5 class = "DSA_wb_mainBodyTxtSM web-GreyDarkest padT8" *ngIf = "!editMode">English</h5>
+                                <input type="text" class="marT8" *ngIf = "editMode">
+                            </div>
+                            <div class="col-md-4">
+                                <h6 class = "DSA_wb_caption web-GreyLight marT4">Secondary Language</h6>
+                                <h5 class = "DSA_wb_mainBodyTxtSM web-GreyDarkest padT8" *ngIf = "!editMode">Spanish</h5>
+                                <input type="text" class="marT8" *ngIf = "editMode">
+                            </div>
+                            <div class="col-md-4">
+                                <h6 class = "DSA_wb_caption web-GreyLight marT4">Third Language</h6>
+                                <h5 class = "DSA_wb_mainBodyTxtSM web-GreyDarkest padT8" *ngIf = "!editMode">-</h5>
+                                <input type="text" class="marT8" *ngIf = "editMode">
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <div>
+                        <div class="pt-3 pb-3">
+                            <h5 class = "DSA_wb_mainBodyTxtSM web-GreyDarkest padT8">Working Hours</h5>
+                        </div>
+                        <div class="row pb-3">
+                            <div class="col-md-4">
+                                <h6 class = "DSA_wb_caption web-GreyLight marT4">Start Time</h6>
+                                <h5 class = "DSA_wb_mainBodyTxtSM web-GreyDarkest padT8 " *ngIf = "!editMode"> 10.00</h5>
+                                <input type="text" class="marT8" *ngIf = "editMode">
+                            </div>
+                            <div class="col-md-4">
+                                <h6 class = "DSA_wb_caption web-GreyLight marT4">End Time</h6>
+                                <h5 class = "DSA_wb_mainBodyTxtSM web-GreyDarkest padT8" *ngIf = "!editMode">16.30</h5>
+                                <input type="text" class="marT8" *ngIf = "editMode">
+                            </div>
+                            <div class="col-md-4">
+                                <h6 class = "DSA_wb_caption web-GreyLight marT4">Timezone</h6>
+                                <h5 class = "DSA_wb_mainBodyTxtSM web-GreyDarkest padT8" *ngIf = "!editMode">PST</h5>
+                                <input type="text" class="marT8" *ngIf = "editMode">
+                            </div>
+                        </div>
+
+                        <div class="row pb-3">
+                            <div class="col-md-4">
+                                <h6 class = "DSA_wb_caption web-GreyLight marT4">Weekly Off Days</h6>
+                                <h5 class = "DSA_wb_mainBodyTxtSM web-GreyDarkest padT8" *ngIf = "!editMode">Monday, Tuesday</h5>
+                                <input type="text" class="marT8" *ngIf = "editMode">
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <div class="mb-5">
+                        <div class="pt-3 pb-3">
+                            <h5 class = "DSA_wb_mainBodyTxtSM web-GreyDarkest padT8">Location Details</h5>
+                        </div>
+                        <div class="row pb-3">
+                            <div class="col-md-4">
+                                <h6 class = "DSA_wb_caption web-GreyLight marT4">Address 1</h6>
+                                <h5 class = "DSA_wb_mainBodyTxtSM web-GreyDarkest padT8" *ngIf = "!editMode">Apt</h5>
+                                <input type="text" class="marT8" *ngIf = "editMode">
+                            </div>
+                            <div class="col-md-4">
+                                <h6 class = "DSA_wb_caption web-GreyLight marT4">Address 2</h6>
+                                <h5 class = "DSA_wb_mainBodyTxtSM web-GreyDarkest padT8" *ngIf = "!editMode">43610</h5>
+                                <input type="text" class="marT8" *ngIf = "editMode">
+                            </div>
+                            <div class="col-md-4">
+                                <h6 class = "DSA_wb_caption web-GreyLight marT4">City</h6>
+                                <h5 class = "DSA_wb_mainBodyTxtSM web-GreyDarkest padT8" *ngIf = "!editMode">Fremont</h5>
+                                <input type="text" class="marT8" *ngIf = "editMode">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <h6 class = "DSA_wb_caption web-GreyLight marT4">State</h6>
+                                <h5 class = "DSA_wb_mainBodyTxtSM web-GreyDarkest padT8" *ngIf = "!editMode">CA</h5>
+                                <input type="text" class="marT8" *ngIf = "editMode">
+                            </div>
+                            <div class="col-md-4">
+                                <h6 class = "DSA_wb_caption web-GreyLight marT4">Zip</h6>
+                                <h5 class = "DSA_wb_mainBodyTxtSM web-GreyDarkest padT8" *ngIf = "!editMode">90045</h5>
+                                <input type="text" class="marT8" *ngIf = "editMode">
+                            </div>
+                        </div>
+                    </div>
+                
+                </mat-card-content>
+            </mat-card>
+        </div>
+
+        <div class="col-md-4">
+            <mat-card>
+                <mat-card-content>
+                    <div class="pb-3">
+                        <h5 class = "DSA_wb_mainBodyTxtSM web-GreyDarkest padT8">Work Details</h5>
+                    </div>
+
+                    <div class="row pt-2 pb-3">
+                        <div class="col-md-6">
+                            <h6 class = "DSA_wb_caption web-GreyLight marT4">Role</h6>
+                            <h5 class = "DSA_wb_mainBodyTxtSM web-GreyDarkest padT8">Contact Tracer</h5>
+                        </div>
+                        <div class="col-md-6">
+                            <h6 class = "DSA_wb_caption web-GreyLight marT4">Role ID</h6>
+                            <h5 class = "DSA_wb_mainBodyTxtSM web-GreyDarkest padT8">R0001</h5>
+                        </div>
+                    </div>
+
+                    <div class="row pb-3">
+                        <div class="col-md-6">
+                            <h6 class = "DSA_wb_caption web-GreyLight marT4">Tracer ID</h6>
+                            <h5 class = "DSA_wb_mainBodyTxtSM web-GreyDarkest padT8">C0001</h5>
+                        </div>
+                        <div class="col-md-6">
+                            <h6 class = "DSA_wb_caption web-GreyLight marT4">Manager ID</h6>
+                            <h5 class = "DSA_wb_mainBodyTxtSM web-GreyDarkest padT8">C0002</h5>
+                        </div>
+                    </div>
+
+                    <div class="row pb-3">
+                        <div class="col-md-6">
+                            <h6 class = "DSA_wb_caption web-GreyLight marT4">Juridiction ID</h6>
+                            <h5 class = "DSA_wb_mainBodyTxtSM web-GreyDarkest padT8">TX0001</h5>
+                        </div>
+                        <div class="col-md-6">
+                            <h6 class = "DSA_wb_caption web-GreyLight marT4">Hire Date</h6>
+                            <h5 class = "DSA_wb_mainBodyTxtSM web-GreyDarkest padT8">Hire Date</h5>
+                        </div>
+                    </div>
+
+                </mat-card-content>
+            </mat-card>
+        </div>
+    </div>
+
+</section>

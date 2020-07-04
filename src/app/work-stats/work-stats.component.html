@@ -1,0 +1,128 @@
+<div class="clearfix DSA_mainCtr ctr_main" id="mainCtr">
+    <div class="container-fluid">
+        <div class="DSA_rightMainContent nomarL_mb" id="mainrightCnt">
+            <div class="DSA_innerContentWrapper ">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="DSA_contentLeftCol">
+                            <h1 class="DSA_wb_h1Header marB32 mainlabel">My Work Stats</h1>
+                            <div class="row">
+                                <div _ngcontent-ccl-c0="" class="col-lg-3">
+                                    <mat-label>Daily stats for</mat-label>
+                                    <mat-form-field class="DSA_Wb_custom-form-field">
+                                        <input matInput [matDatepicker]="picker"  [ngModel]="currentDate" placeholder="" (click)="picker.open()">
+                                        <mat-datepicker-toggle matSuffix [for]="picker">
+                                            <i class="icon x-24 calendar-icon" matDatepickerToggleIcon></i>
+                                        </mat-datepicker-toggle>
+                                        <mat-datepicker panelClass="DSA_wb_dateClass" #picker></mat-datepicker>
+                                    </mat-form-field>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <mat-card class="DSA_wb_card-widget">
+                                        <mat-card-header>
+                                            <mat-card-title class="DSA_wb_flex clearfix">
+                                                <div class="DSA_wb_flex80">
+                                                    <h2 class="DSA_wb_h2Header DSA_wb_text-1line">Cases</h2>
+                                                </div>
+                                            </mat-card-title>
+                                        </mat-card-header>
+                                        <mat-card-content>
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="col-sm-4">
+                                                        <div class="DSA_wb_title marB16 web-SecondaryRed">09</div>
+                                                        <span
+                                                            class="DSA_wb_mainBodyTxt web-GreyDarkest d-block marB4">Open
+                                                            cases</span>
+                                                    </div>
+                                                    <div class="col-sm-4">
+                                                        <div class="DSA_wb_title marB16 web-SecondaryYellow">03</div>
+                                                        <span class="DSA_wb_mainBodyTxt web-GreyDarkest d-block marB4">
+                                                            Investigated</span>
+                                                    </div>
+                                                    <div class="col-sm-4">
+                                                        <div class="DSA_wb_title marB16 web-SecondaryGreen">01</div>
+                                                        <span class="DSA_wb_mainBodyTxt web-GreyDarkest d-block marB4">
+                                                            Closed</span>
+                                                    </div>
+                                                </div>
+                                                <div class="border-top my-4"></div>
+                                                <div class="row">
+                                                    <div class="col-sm-4">
+                                                        <div class="DSA_wb_title marB16 web-SecondaryRed">02</div>
+                                                        <span
+                                                            class="DSA_wb_mainBodyTxt web-GreyDarkest d-block marB4">Ageing
+                                                            cases</span>
+                                                    </div>
+                                                    <div class="col-sm-4">
+                                                        <div class="DSA_wb_title marB16 web-SecondaryRed">02</div>
+                                                        <span class="DSA_wb_mainBodyTxt web-GreyDarkest d-block marB4">
+                                                            Cases not monitored for more than 2 days</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </mat-card-content>
+                                    </mat-card>
+                                </div>
+
+                                <div class="col-lg-6">
+                                    <mat-card class="DSA_wb_card-widget">
+                                        <mat-card-header>
+                                            <mat-card-title class="DSA_wb_flex clearfix">
+                                                <div class="DSA_wb_flex80">
+                                                    <h2 class="DSA_wb_h2Header DSA_wb_text-1line">Contacts</h2>
+                                                </div>
+                                            </mat-card-title>
+                                        </mat-card-header>
+                                        <mat-card-content>
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="col-sm-4">
+                                                        <div class="DSA_wb_title marB16 web-SecondaryRed">12</div>
+                                                        <span
+                                                            class="DSA_wb_mainBodyTxt web-GreyDarkest d-block marB4">Open
+                                                            cases</span>
+                                                    </div>
+                                                    <div class="col-sm-4">
+                                                        <div class="DSA_wb_title marB16 web-SecondaryYellow">02</div>
+                                                        <span class="DSA_wb_mainBodyTxt web-GreyDarkest d-block marB4">
+                                                            Investigated</span>
+                                                    </div>
+                                                    <div class="col-sm-4">
+                                                        <div class="DSA_wb_title marB16 web-SecondaryGreen">02</div>
+                                                        <span class="DSA_wb_mainBodyTxt web-GreyDarkest d-block marB4">
+                                                            Closed</span>
+                                                    </div>
+                                                </div>
+                                                <div class="border-top my-4"></div>
+                                                <div class="row">
+                                                    <div class="col-sm-4">
+                                                        <div class="DSA_wb_title marB16 web-SecondaryRed">03</div>
+                                                        <span
+                                                            class="DSA_wb_mainBodyTxt web-GreyDarkest d-block marB4">Ageing
+                                                            contacts</span>
+                                                    </div>
+                                                    <div class="col-sm-4">
+                                                        <div class="DSA_wb_title marB16 web-SecondaryRed">01</div>
+                                                        <span class="DSA_wb_mainBodyTxt web-GreyDarkest d-block marB4">
+                                                            Cases not monitored for more than 2 days</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </mat-card-content>
+                                    </mat-card>
+                                </div>
+                            </div><br><br><br>
+                            <div class="container">
+                            <div class=""><button mat-flat-button class="DSA_wb_secondary-btn">Download Report</button></div>
+                            <div class=""><button mat-flat-button class="DSA_wb_secondary-btn">Email Report</button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

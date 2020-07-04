@@ -1,0 +1,180 @@
+<div class="DSA_panel">
+    <div class="DSA_panelBody">
+        <div class=" web-Me-PrimaryLightBg clearfix pad32">
+            <h1 class="DSA_wb_h1Header web-GreyDarkest marB16">Case ID 321456</h1>
+
+            <div class="float-left">
+                <img class="avatarImageCircle avatarImageinvest" src="assets/images/homeAvatar.png" />
+            </div>
+            <div class="row">
+                <div>
+                    <div class="DSA_wb_h2Header web-GreyDarkest padL32">Graham joy</div>
+                    <div class="DSA_wb_caption web-GreyLight marT4 padT8 marL32">Male 30</div>
+                </div>
+                <span class="DSA_wb_chipStyle DSA_openchip marL16 activeSpan">Active</span>
+            </div>
+
+            <div class="row pad32">
+                <div class="marR32 padR32">
+                    <div class="DSA_wb_caption web-GreyLight marT4">Risk Level</div>
+                    <div class="DSA_wb_mainBodyTxtSM web-GreyDarkest padT8">High</div>
+                </div>
+                <div class="marR32 padR32">
+                    <div class="DSA_wb_caption web-GreyLight marT4">Investigation Status</div>
+                    <div class="DSA_wb_mainBodyTxtSM web-GreyDarkest padT8">Investigating</div>
+                </div>
+                <div class="marR32 padR32">
+                    <div class="DSA_wb_caption web-GreyLight marT4">Last Monitored</div>
+                    <div class="DSA_wb_mainBodyTxtSM web-GreyDarkest padT8">21-05-2020</div>
+                </div>
+                <div class="marR32 padR32">
+                    <div class="DSA_wb_caption web-GreyLight marT4">Language</div>
+                    <div class="DSA_wb_mainBodyTxtSM web-GreyDarkest padT8">English</div>
+                </div>
+                <div class="marR32 padR32">
+                    <div class="DSA_wb_caption web-GreyLight marT4">County</div>
+                    <div class="DSA_wb_mainBodyTxtSM web-GreyDarkest padT8">Prudence</div>
+                </div>
+                <div class="marR32 padR32">
+                    <div class="DSA_wb_caption web-GreyLight marT4">Contact Number</div>
+                    <div class="DSA_wb_mainBodyTxtSM web-GreyDarkest padT8">874-415-5197</div>
+                </div>
+                <div class="marR32 padR32">
+                    <div class="DSA_wb_caption web-GreyLight marT4">Action</div>
+                    <div style="display:flex;" class="DSA_wb_mainBodyTxtSM web-GreyDarkest padT8">
+                        <i class="icon x-24 call-icon marR8"> </i>
+                        <i class="icon x-24 icon_whatsapp marR8"> </i>
+                        <i class="icon x-24 calendar-icon marR8"> </i>
+                        <i class="icon x-24 mail-icon"> </i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="DSA_panelFooter padLR24">
+            <mat-horizontal-stepper #stepper disableRipple="true" class="DSA_stepperCtr">
+                <ng-template matStepperIcon="done">
+                    <i class="icon x-24 icon-tick-dark green"></i>
+                </ng-template>
+                <ng-template matStepperIcon="edit">
+                    <mat-icon>check</mat-icon>
+                </ng-template>
+
+                <mat-step label="Demography">
+                    <!--[editable]="false" [completed]="true">-->
+                    <form class="marT16">
+
+                    </form>
+                </mat-step>
+                <mat-step label="Contact Exposure">
+                    <form class="marT16">
+
+                    </form>
+                </mat-step>
+                <mat-step label="Travel Exposure">
+                    <form class="marT16">
+
+                    </form>
+                </mat-step>
+                <mat-step label="Medical Records">
+                    <form class="marT16">
+
+                    </form>
+                </mat-step>
+                <mat-step label="Test Details">
+                    <form class="marT16">
+
+                    </form>
+                </mat-step>
+
+
+            </mat-horizontal-stepper>
+        </div>
+    </div>
+    <div class="clearfix DSA_mainCtr ctr_main" id="mainCtr">
+
+        <div class="container-fluid">
+
+            <div class="DSA_rightMainContent nomarL_mb" id="mainrightCnt">
+                <div class="DSA_innerContentWrapper ">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="DSA_contentLeftCol">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="DSA_panel ">
+                                            <h1 class="DSA_wb_h1Header padL16 padT16 marB32 mainlabel assign">Contacts</h1>
+                                            <div class=" pad16 DSA_wb_customTab DSA_navTabWhite DSA_wb_Secondary">
+                                                <table class=" DSA_wb_custom-table">
+                                                    <thead>
+                                                        <tr>                            
+                                                            <th>Contact ID</th>
+                                                            <th>Name</th>
+                                                            <th>Exposure Type</th>
+                                                            <th>Exposure Location</th>
+                                                            <th>Exposure Duration</th>
+                                                            <th>Relationship</th>
+                                                            <th>Action</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>    
+                                                            <td>23980</td>                       
+                                                            <td><a href="javascript:void(0);" class="DSA_wb_hyperLink-btn">Ayansh R</a></td>
+                                                            <td>Close contact</td>
+                                                            <td>Social</td>
+                                                            <td>01 hour</td>
+                                                            <td>Friend</td>
+                                                            <td>
+                                                                <i class="icon purple x-24 edit-icon"> </i>
+                                                                <i class="icon purple x-24 delete-sm-icon"> </i>  
+                                                            </td>
+                                                        </tr>
+                                                        <tr>   
+                                                            <td>37890</td>                           
+                                                            <td><a href="javascript:void(0);" class="DSA_wb_hyperLink-btn">Rakesh S</a></td>
+                                                            <td>Close contact</td>
+                                                            <td>Social</td>
+                                                            <td>01 hour</td>
+                                                            <td>Friend</td>
+                                                            <td>
+                                                                <i class="icon purple x-24 edit-icon"> </i>
+                                                                <i class="icon purple x-24 delete-sm-icon"> </i>  
+                                                            </td>
+                                                        </tr>
+                                                        <tr>  
+                                                            <td>34807</td>                               
+                                                            <td><a href="javascript:void(0);" class="DSA_wb_hyperLink-btn">Manoj Neelakanthan</a></td>
+                                                            <td>Close contact</td>
+                                                            <td>Social</td>
+                                                            <td>01 hour</td>
+                                                            <td>Friend</td>
+                                                            <td>
+                                                                <i class="icon purple x-24 edit-icon"> </i>
+                                                                <i class="icon purple x-24 delete-sm-icon"> </i>  
+                                                            </td>
+                                                        </tr>
+                                                        <tr>      
+                                                            <td>12678</td>                       
+                                                            <td><a href="javascript:void(0);" class="DSA_wb_hyperLink-btn">Sandhya RK</a></td>
+                                                            <td>Close contact</td>
+                                                            <td>Social</td>
+                                                            <td>01 hour</td>
+                                                            <td>Friend</td>
+                                                            <td>
+                                                                <i class="icon purple x-24 edit-icon"> </i>
+                                                                <i class="icon purple x-24 delete-sm-icon"> </i>  
+                                                            </td>
+                                                        </tr>                            
+                                                    </tbody>                    
+                                                </table>
+                                                <button mat-flat-button  class="DSA_wb_Icon-btn"><span class="icon_btnCont"><i class="icon purple x-16 icon-add"></i></span> Add Contact</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>

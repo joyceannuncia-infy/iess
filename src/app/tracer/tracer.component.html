@@ -23,12 +23,26 @@
                                             <span class="DSA_wb_mainBodyTxt web-GreyDarkest d-block marB4">Assigned
                                                 contacts</span>
                                         </mat-card-content>
-                                    </mat-card>                                       
+                                    </mat-card> 
+                                    <mat-card class="DSA_wb_card-widget DSA_card-square DSA_square-lg">
+                                        <mat-card-content>
+                                            <div class="DSA_wb_title marB16 web-SecondaryYellow">02</div>
+                                            <span class="DSA_wb_mainBodyTxt web-GreyDarkest d-block marB4">Cases under
+                                                investigation</span>
+                                        </mat-card-content>
+                                    </mat-card>                                      
                                     <mat-card class="DSA_wb_card-widget DSA_card-square DSA_square-lg">
                                         <mat-card-content>
                                             <div class="DSA_wb_title marB16 web-SecondaryYellow">02</div>
                                             <span class="DSA_wb_mainBodyTxt web-GreyDarkest d-block marB4">Cases
-                                                monitoring</span>
+                                                under monitoring</span>
+                                        </mat-card-content>
+                                    </mat-card>
+                                    <mat-card class="pendingcard DSA_wb_card-widget DSA_card-square DSA_square-lg">
+                                        <mat-card-content>
+                                            <div class="DSA_wb_title marB16 web-SecondaryRed">09</div>
+                                            <span class="DSA_wb_mainBodyTxt web-GreyDarkest d-block marB4">Cases
+                                                on-hold</span>
                                         </mat-card-content>
                                     </mat-card>
                                     <mat-card class="closedcard DSA_wb_card-widget DSA_card-square DSA_square-lg">
@@ -84,7 +98,7 @@
                                                             <img src="assets/images/avatar-mini-01.png" alt=""
                                                                 class="float-left avatar-mini" />
                                                             <div>
-                                                                {{case.name}}
+                                                                <a href="javascript:void(0);" class="DSA_wb_hyperLink-btn">{{case.name}}</a>
                                                             </div>
                                                         </div>
                                                     </td>
@@ -95,8 +109,9 @@
                                                     <td>15</td>
                                                     <td><span class="DSA_wb_chipStyle DSA_closedchip">High</span>
                                                     </td>
-                                                    <td><i class="icon x-24 purple call-icon"> </i>
-                                                        <i class="icon x-24 purple search-icon"> </i>
+                                                    <td>
+                                                        <!-- <i class="icon x-24 purple call-icon"> </i> -->
+                                                        <i class="icon x-24 purple search-icon" (click)="openInvestigate()"> </i>
                                                         <i class="icon x-24 purple show-icon"> </i>
                                                         <i class="icon x-24 purple download-icon"> </i></td>
                                                 </tr>

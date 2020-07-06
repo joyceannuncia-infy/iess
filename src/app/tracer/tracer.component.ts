@@ -2,7 +2,7 @@ import { Component, OnInit, Input } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
 import { Http } from '@angular/http';
 import { ContactTracingService } from '../services/contact-tracing.service';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-tracer',
@@ -25,9 +25,16 @@ export class TracerComponent implements OnInit {
   calling = false;
   showImageModal: boolean;
   callingMessage: string;
+  traceName: string;
+  tracerGender: string;
+  tracerAge: number;
+  tracerImage: any;
+  tracerLanguage: any;
+  tracerDob: any;
+  tracerPrimaryContactNumber: any;
 
 
-  constructor(public router: Router, private activatedroute: ActivatedRoute, private contactService: ContactTracingService, private http: Http) { }
+  constructor(public router: Router, private activatedroute: ActivatedRoute, private modalService: NgbModal, private contactService: ContactTracingService, private http: Http) { }
 
 
   ngOnInit() {
@@ -124,4 +131,17 @@ export class TracerComponent implements OnInit {
   public openInvestigate() {
     this.router.navigate(["investigate"]);
   }
+
+  openModal(modalContent: any, rowData: any) {
+    this.modalService.open(modalContent, {
+        windowClass: 'web_custom_modal DSA_modal-sm'
+      });
+      this.tracerImage = 'assets/images/avatar-mini-01.png';
+      this.traceName = rowData.firstName + ' ' + rowData.lastName;
+      this.tracerGender = rowData.gender;
+      this.tracerLanguage = rowData.language;
+      this.tracerDob = '10-25-2010';
+      this.tracerPrimaryContactNumber = rowData.phoneNumber;
+  }
+
 }

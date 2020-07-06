@@ -100,6 +100,7 @@
                                                             <div>
                                                                 <a (click)="openModal(viewCertificateModal,case)" class="DSA_wb_hyperLink-btn">{{case.name}}</a>
                                                             </div>
+                                                            {{case.gender}}, {{case.age}}
                                                         </div>
                                                     </td>
                                                     <td >{{case.language}}</td>
@@ -159,17 +160,17 @@
             <div class="row">
                 <div class="col-md-4">
                     <span style="font-size:14px">Country</span><br>
-                    <span style="font-size:15px"><b>{{tracerLanguage}}</b></span>
+                    <span style="font-size:15px"><b>{{tracerCountry}}</b></span>
                 </div>
                 <div class="col-md-4">
                     <span style="font-size:14px">Zip code</span><br>
-                    <span style="font-size:15px"><b>{{tracerDob}}</b></span>
+                    <span style="font-size:15px"><b>{{tracerZip}}</b></span>
                 </div>
             </div><br><br>
             <div class="row">
                 <div class="col-md-4">
                     <span style="font-size:14px">Address</span><br>
-                    <span style="font-size:15px"><b>{{tracerLanguage}}</b></span>
+                    <span style="font-size:15px"><b>{{tracerAddress}}</b></span>
                 </div>
             </div>
         </div>

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-monitoring',
@@ -7,9 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MonitoringComponent implements OnInit {
 
-  constructor() { }
+  constructor(private modalService: NgbModal) { }
 
   ngOnInit() {
+  }
+
+  openModal(modalContent: any, rowData: any) {
+    this.modalService.open(modalContent, {
+        windowClass: 'web_custom_modal DSA_modal-sm'
+      });
   }
 
 }

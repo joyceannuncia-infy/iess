@@ -2,7 +2,7 @@ import { Component, OnInit, Input } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
 import { Http } from '@angular/http';
 import { ContactTracingService } from '../services/contact-tracing.service';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-tracer',
@@ -25,9 +25,21 @@ export class TracerComponent implements OnInit {
   calling = false;
   showImageModal: boolean;
   callingMessage: string;
+  traceName: string;
+  tracerGender: string;
+  tracerAge: number;
+  tracerImage: any;
+  tracerLanguage: any;
+  tracerDob: any;
+  tracerPrimaryContactNumber: any;
+  dateOfBirth: any;
+  dateB: any;
+  tracerCountry: any;
+  tracerAddress: any;
+  tracerZip: any;
 
 
-  constructor(public router: Router, private activatedroute: ActivatedRoute, private contactService: ContactTracingService, private http: Http) { }
+  constructor(public router: Router, private activatedroute: ActivatedRoute, private modalService: NgbModal, private contactService: ContactTracingService, private http: Http) { }
 
 
   ngOnInit() {
@@ -42,23 +54,22 @@ export class TracerComponent implements OnInit {
       this.casemanagedata = [];
       result.forEach(element => {
         if (element.classification == "Confirmed") {
-          // console.log(element)
+          console.log("Element---->", element)
           let cases: any = {};
           let name: any = {};
           cases.contactId = element.contactId;
           cases.firstName = element.firstName;
           cases.lastName = element.lastName;
           cases.middleName = element.middleName;
-
           name.firstName = cases.firstName;
           name.lastName = cases.lastName;
           name.middleName = cases.middleName
-
           cases.name = name.firstName + ' ' + name.lastName + ' ' + name.middleName;
+          cases.dateOfBirth = element.dob;
+          cases.address = element.address;
           var dob = element.dob;
           var date = new Date();
           // var year = date.get;
-
           // console.log("year---->", year)
           var timeDiff = Math.abs(Date.now() - dob);
           cases.age = Math.floor((timeDiff / (1000 * 3600 * 24)) / 365);
@@ -71,7 +82,6 @@ export class TracerComponent implements OnInit {
           cases.phone = element.phoneNumber;
           if (cases.tracerID == "")
             this.casemanagedata.push(cases)
-
           // console.log("in show all case method",this.casemanagedata)
         }
       });
@@ -89,12 +99,12 @@ export class TracerComponent implements OnInit {
           name.firstName = cases.firstName;
           name.lastName = cases.lastName;
           name.middleName = cases.middleName
-
           cases.name = name.firstName + ' ' + name.lastName + ' ' + name.middleName;
+          cases.dateOfBirth = element.dob;
+          cases.address = element.address;
           var dob = element.dob;
           var date = new Date();
           // var year = date.get;
-
           // console.log("year---->", year)
           var timeDiff = Math.abs(Date.now() - dob);
           cases.age = Math.floor((timeDiff / (1000 * 3600 * 24)) / 365);
@@ -124,4 +134,21 @@ export class TracerComponent implements OnInit {
   public openInvestigate() {
     this.router.navigate(["investigate"]);
   }
+
+  openModal(modalContent: any, rowData: any) {
+    this.modalService.open(modalContent, {
+        windowClass: 'web_custom_modal DSA_modal-sm'
+      });
+      console.log(rowData);
+      this.tracerImage = 'assets/images/avatar-mini-01.png';
+      this.traceName = rowData.name;
+      this.tracerGender = rowData.gender;
+      this.tracerLanguage = rowData.language;
+      this.tracerDob = rowData.dateOfBirth;
+      this.tracerCountry = rowData.address.country;
+      this.tracerAddress = rowData.address.address1;
+      this.tracerZip = rowData.zipcode
+      this.tracerPrimaryContactNumber = rowData.phone;
+  }
+
 }

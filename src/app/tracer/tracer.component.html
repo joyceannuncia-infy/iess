@@ -98,8 +98,9 @@
                                                             <img src="assets/images/avatar-mini-01.png" alt=""
                                                                 class="float-left avatar-mini" />
                                                             <div>
-                                                                <a href="javascript:void(0);" class="DSA_wb_hyperLink-btn">{{case.name}}</a>
+                                                                <a (click)="openModal(viewCertificateModal,case)" class="DSA_wb_hyperLink-btn">{{case.name}}</a>
                                                             </div>
+                                                            {{case.gender}}, {{case.age}}
                                                         </div>
                                                     </td>
                                                     <td >{{case.language}}</td>
@@ -115,13 +116,9 @@
                                                         <i class="icon x-24 purple show-icon"> </i>
                                                         <i class="icon x-24 purple download-icon"> </i></td>
                                                 </tr>
-                                                
                                         </table>
-                                        
                                     </div>
                                 </div>
-
-
                             </div>
                         </div>
                     </div>
@@ -129,7 +126,54 @@
             </div>
         </div>
     </div>
-
-
 </div>
+
+<!-- Modal to show the tracer profile -->
+
+<ng-template #viewCertificateModal let-modal>
+    <div class="modal-header">
+        <div class="clearfix">
+            <p><img src="assets/images/avatar-mini-01.png" class="float-left avatar-mini" /></p>
+            <h4 class="DSA_wb_h2Header float-left tracerName">{{traceName}}</h4>
+            <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+                <i class="icon x-16 close-icon"> </i>
+            </button>
+        </div>
+        <p class="DSA_mainBodyTxt4 tracerGender">{{tracerGender}}</p>
+    </div>
+    <div class="modal-body textcenter">
+        <div class="container col-md-12">
+            <div class="row">
+                <div class="col-md-4">
+                    <span style="font-size:14px">Language</span><br>
+                     <span style="font-size:15px"><b>{{tracerLanguage}}</b></span>
+                </div>
+                <div class="col-md-4">
+                    <span style="font-size:14px">Date of Birth</span><br>
+                    <span style="font-size:15px"><b>{{tracerDob}}</b></span>
+                </div>
+                <div class="col-md-4">
+                    <span style="font-size:14px">Contact Number</span><br>
+                    <span style="font-size:15px"><b>{{tracerPrimaryContactNumber}}</b></span>
+                </div>
+            </div><br><br>
+            <div class="row">
+                <div class="col-md-4">
+                    <span style="font-size:14px">Country</span><br>
+                    <span style="font-size:15px"><b>{{tracerCountry}}</b></span>
+                </div>
+                <div class="col-md-4">
+                    <span style="font-size:14px">Zip code</span><br>
+                    <span style="font-size:15px"><b>{{tracerZip}}</b></span>
+                </div>
+            </div><br><br>
+            <div class="row">
+                <div class="col-md-4">
+                    <span style="font-size:14px">Address</span><br>
+                    <span style="font-size:15px"><b>{{tracerAddress}}</b></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</ng-template>
 

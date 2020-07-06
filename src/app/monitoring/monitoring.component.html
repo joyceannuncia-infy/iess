@@ -396,7 +396,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="submitbtn pad16 col-lg-12">
-                                                    <button mat-flat-button class="DSA_wb_primary-btn">Submit
+                                                    <button mat-flat-button class="DSA_wb_primary-btn" (click)="openModal(submitRecordingModal)">Submit
                                                         Recording</button>
                                                 </div>
                                             </div>
@@ -476,6 +476,24 @@
             </div>
         </div>
     </div>
-
-
 </div>
+
+<ng-template #submitRecordingModal let-modal>
+    <div class="modal-header">
+        <h4 class="DSA_wb_h2Header float-left" id="modal-basic-title">Submit Recording</h4>
+        <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+                <i class="icon x-16 close-icon"> </i>
+        </button>
+    </div>
+    <div class="modal-body nopadT">
+            <p>Almost Done! Provide recording comments below and tab OK.</p><br>
+            <div class ="commetRecording"><p>Comment</p></div>
+            <mat-form-field class="DSA_Wb_custom-form-field">
+                <input matInput placeholder="" value="">
+            </mat-form-field>
+    </div>
+    <div class="modal-footer">
+        <button class="DSA_wb_miniPrimary-btn marR24" mat-flat-button>Ok</button>
+        <button (click)="modal.dismiss()" class="DSA_wb_miniSecondary-btn" mat-flat-button>Cancel</button>
+    </div>
+</ng-template>

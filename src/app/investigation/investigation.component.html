@@ -1,4 +1,5 @@
-<div class="DSA_panel">
+<section class="container-fluid">
+<div class="DSA_panel pt-5">
     <div class="DSA_panelBody">
         <div class=" web-Me-PrimaryLightBg clearfix pad32">
             <h1 class="DSA_wb_h1Header web-GreyDarkest marB16">Case ID 321456</h1>
@@ -21,7 +22,7 @@
                 </div>
                 <div class="marR32 padR32">
                     <div class="DSA_wb_caption web-GreyLight marT4">Investigation Status</div>
-                    <div class="DSA_wb_mainBodyTxtSM web-GreyDarkest padT8">Investigating</div>
+                    <div class="DSA_wb_mainBodyTxtSM web-GreyDarkest padT8">Investigation</div>
                 </div>
                 <div class="marR32 padR32">
                     <div class="DSA_wb_caption web-GreyLight marT4">Last Monitored</div>
@@ -50,17 +51,42 @@
                 </div>
             </div>
         </div>
+
+
+
         <div class="DSA_panelFooter padLR24">
             <mat-horizontal-stepper #stepper disableRipple="true" class="DSA_stepperCtr">
-                <ng-template matStepperIcon="done">
+                <!-- <ng-template matStepperIcon="done">
                     <i class="icon x-24 icon-tick-dark green"></i>
                 </ng-template>
                 <ng-template matStepperIcon="edit">
                     <mat-icon>check</mat-icon>
+                </ng-template> -->
+
+                <!-- not working -->
+                <!-- <ng-template matStepperIcon="Demography">
+                    <i class="icon x-24 icon_globe"> </i>
                 </ng-template>
+                <ng-template matStepperIcon="Contact Exposure">
+                    <i class="icon x-24 team-icon"> </i>
+                </ng-template>
+                <ng-template matStepperIcon="Travel Exposure">
+                    <i class="icon x-24 travel-icon"> </i>
+                </ng-template>
+                <ng-template matStepperIcon="Medical Records">
+                    <i class="icon x-24 icon_HealthInsurance"> </i>
+                </ng-template>
+                <ng-template matStepperIcon="Test Details">
+                    <i class="icon x-24 icon-form"> </i>
+                </ng-template> -->
+
+                <!-- example from https://stackblitz.com/edit/angular-sdinkb?file=app%2Fstepper-overview-example.html -->
+
+
 
                 <mat-step label="Demography">
                     <!--[editable]="false" [completed]="true">-->
+                    <!-- <i class="icon x-24 icon_globe"> </i> -->
                     <form class="marT16">
 
                     </form>
@@ -102,11 +128,12 @@
                                 <div class="row">
                                     <div class="col-lg-12">
                                         <div class="DSA_panel ">
-                                            <h1 class="DSA_wb_h1Header padL16 padT16 marB32 mainlabel assign">Contacts</h1>
+                                            <h1 class="DSA_wb_h1Header padL16 padT16 marB32 mainlabel assign">Contacts
+                                            </h1>
                                             <div class=" pad16 DSA_wb_customTab DSA_navTabWhite DSA_wb_Secondary">
                                                 <table class=" DSA_wb_custom-table">
                                                     <thead>
-                                                        <tr>                            
+                                                        <tr>
                                                             <th>Contact ID</th>
                                                             <th>Name</th>
                                                             <th>Exposure Type</th>
@@ -117,57 +144,65 @@
                                                         </tr>
                                                     </thead>
                                                     <tbody>
-                                                        <tr>    
-                                                            <td>23980</td>                       
-                                                            <td><a href="javascript:void(0);" class="DSA_wb_hyperLink-btn">Ayansh R</a></td>
+                                                        <tr>
+                                                            <td>23980</td>
+                                                            <td><a href="javascript:void(0);"
+                                                                    class="DSA_wb_hyperLink-btn">Ayansh R</a></td>
                                                             <td>Close contact</td>
                                                             <td>Social</td>
                                                             <td>01 hour</td>
                                                             <td>Friend</td>
                                                             <td>
                                                                 <i class="icon purple x-24 edit-icon"> </i>
-                                                                <i class="icon purple x-24 delete-sm-icon"> </i>  
+                                                                <i class="icon purple x-24 delete-sm-icon"> </i>
                                                             </td>
                                                         </tr>
-                                                        <tr>   
-                                                            <td>37890</td>                           
-                                                            <td><a href="javascript:void(0);" class="DSA_wb_hyperLink-btn">Rakesh S</a></td>
+                                                        <tr>
+                                                            <td>37890</td>
+                                                            <td><a href="javascript:void(0);"
+                                                                    class="DSA_wb_hyperLink-btn">Rakesh S</a></td>
                                                             <td>Close contact</td>
                                                             <td>Social</td>
                                                             <td>01 hour</td>
                                                             <td>Friend</td>
                                                             <td>
                                                                 <i class="icon purple x-24 edit-icon"> </i>
-                                                                <i class="icon purple x-24 delete-sm-icon"> </i>  
+                                                                <i class="icon purple x-24 delete-sm-icon"> </i>
                                                             </td>
                                                         </tr>
-                                                        <tr>  
-                                                            <td>34807</td>                               
-                                                            <td><a href="javascript:void(0);" class="DSA_wb_hyperLink-btn">Manoj Neelakanthan</a></td>
+                                                        <tr>
+                                                            <td>34807</td>
+                                                            <td><a href="javascript:void(0);"
+                                                                    class="DSA_wb_hyperLink-btn">Manoj Neelakanthan</a>
+                                                            </td>
                                                             <td>Close contact</td>
                                                             <td>Social</td>
                                                             <td>01 hour</td>
                                                             <td>Friend</td>
                                                             <td>
                                                                 <i class="icon purple x-24 edit-icon"> </i>
-                                                                <i class="icon purple x-24 delete-sm-icon"> </i>  
+                                                                <i class="icon purple x-24 delete-sm-icon"> </i>
                                                             </td>
                                                         </tr>
-                                                        <tr>      
-                                                            <td>12678</td>                       
-                                                            <td><a href="javascript:void(0);" class="DSA_wb_hyperLink-btn">Sandhya RK</a></td>
+                                                        <tr>
+                                                            <td>12678</td>
+                                                            <td><a href="javascript:void(0);"
+                                                                    class="DSA_wb_hyperLink-btn">Sandhya RK</a></td>
                                                             <td>Close contact</td>
                                                             <td>Social</td>
                                                             <td>01 hour</td>
                                                             <td>Friend</td>
                                                             <td>
                                                                 <i class="icon purple x-24 edit-icon"> </i>
-                                                                <i class="icon purple x-24 delete-sm-icon"> </i>  
+                                                                <i class="icon purple x-24 delete-sm-icon"> </i>
                                                             </td>
-                                                        </tr>                            
-                                                    </tbody>                    
+                                                        </tr>
+                                                    </tbody>
                                                 </table>
-                                                <button mat-flat-button  class="DSA_wb_Icon-btn"><span class="icon_btnCont"><i class="icon purple x-16 icon-add"></i></span> Add Contact</button>
+                                                <button mat-flat-button class="DSA_wb_Icon-btn"><span
+                                                        class="icon_btnCont"><i
+                                                            class="icon purple x-16 icon-add"></i></span> Add
+                                                    Contact</button>
                                             </div>
                                         </div>
                                     </div>
@@ -178,3 +213,46 @@
                 </div>
             </div>
         </div>
+    </div>
+</div>
+</section>
+    <div class="callingCard">
+        <div class="row">
+            <div class="offset-md-8 col-md-4 pr-0">
+                <mat-card class="DSA_wb_card-widget">
+                    <mat-card-content>
+                        <ul class="DSA_wb_listItemSingle">
+                            <li>
+                                <span class="clearfix">
+                                    <span class="DSA_wb_listLeft">
+                                        <img src="assets/images/avatar1.png" class="float-left marR16" />
+                                        <span class="DSA_wb_marginicon40">
+                                            <span>
+                                                <h2 class="DSA_wb_h2Header web-GreyDarkest DSA_wb_text-1line">Calling
+                                                </h2>
+                                                <h2
+                                                    class="DSA_wb_h2Header web-GreyLight d-block marT4 DSA_wb_text-1line">
+                                                    Graham K</h2>
+                                            </span>
+                                            <!-- <span>
+                                                <h2 class="DSA_wb_h2Header web-GreyDarkest DSA_wb_text-1line">Graham K</h2>
+                                                <h2 class="DSA_wb_h2Header web-GreyLight d-block marT4 DSA_wb_text-1line">15:20</h2>
+                                            </span> -->
+                                        </span>
+                                    </span>
+                                    <span class="DSA_wb_vertical-RightCenter">
+                                        <a href="javascript:void(0);"
+                                            class="icon purple x-24 icon-pause bg-secondary text-white callIconSpan pt-1 pl-1 float-left">
+                                        </a>
+                                        <a href="javascript:void(0);"
+                                            class="icon purple x-24 call-icon bg-danger text-white marL16 callIconSpan pt-1 pl-1 float-left">
+                                        </a>
+                                    </span>
+                                </span>
+                            </li>
+                        </ul>
+                    </mat-card-content>
+                </mat-card>
+            </div>
+        </div>
+    </div>

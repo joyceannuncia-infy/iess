@@ -1,12 +1,12 @@
-<section>
-    <h4 class="pt-3 pb-3">My Profile</h4>
+<section class="container-fluid pt-5">
+    <h4 class="pt-5 pb-3">My Profile</h4>
 
     <div class="row">
 
         <div class="col-md-8 pb-6">     
             <mat-card class="DSA_wb_card-widget">                            
                 <mat-card-content>
-
+                    <form [formGroup]="editProfileForm">
                     <div class="row pb-2">
                         <div class="col-md-2">
                             <img src="assets/images/avatar1.png" class="float-left marR16" width="100" height="100"/>
@@ -31,12 +31,12 @@
                                 <span class="col-md-6">
                                     <h6 class = "DSA_wb_caption web-GreyLight marT4">Phone Number</h6>
                                     <h5 class = "DSA_wb_mainBodyTxtSM web-GreyDarkest padT8" *ngIf = "!editMode">123-456-789</h5>
-                                    <input type="text" class="marT8" *ngIf = "editMode">
+                                    <input type="text" class="marT8" formControlName="phoneNumber" *ngIf = "editMode">
                                 </span>  
                                 <span class="col-md-6">
                                     <h6 class = "DSA_wb_caption web-GreyLight marT4">Email</h6>
                                     <h5 class = "DSA_wb_mainBodyTxtSM web-GreyDarkest padT8" *ngIf = "!editMode">abc@gmail.com</h5>
-                                    <input type="text" class="marT8" *ngIf = "editMode">
+                                    <input type="text" class="marT8" formControlName="email" *ngIf = "editMode">
                                 </span>
                             </div>
                         </div>
@@ -53,17 +53,17 @@
                             <div class="col-md-4">
                                 <h6 class = "DSA_wb_caption web-GreyLight marT4">Primary Language</h6>
                                 <h5 class = "DSA_wb_mainBodyTxtSM web-GreyDarkest padT8" *ngIf = "!editMode">English</h5>
-                                <input type="text" class="marT8" *ngIf = "editMode">
+                                <input type="text" class="marT8" formControlName="primaryLanguage" *ngIf = "editMode">
                             </div>
                             <div class="col-md-4">
                                 <h6 class = "DSA_wb_caption web-GreyLight marT4">Secondary Language</h6>
                                 <h5 class = "DSA_wb_mainBodyTxtSM web-GreyDarkest padT8" *ngIf = "!editMode">Spanish</h5>
-                                <input type="text" class="marT8" *ngIf = "editMode">
+                                <input type="text" class="marT8" formControlName="secondaryLanguage" *ngIf = "editMode">
                             </div>
                             <div class="col-md-4">
                                 <h6 class = "DSA_wb_caption web-GreyLight marT4">Third Language</h6>
                                 <h5 class = "DSA_wb_mainBodyTxtSM web-GreyDarkest padT8" *ngIf = "!editMode">-</h5>
-                                <input type="text" class="marT8" *ngIf = "editMode">
+                                <input type="text" class="marT8" formControlName="thirdLanguage" *ngIf = "editMode">
                             </div>
                         </div>
                     </div>
@@ -78,17 +78,17 @@
                             <div class="col-md-4">
                                 <h6 class = "DSA_wb_caption web-GreyLight marT4">Start Time</h6>
                                 <h5 class = "DSA_wb_mainBodyTxtSM web-GreyDarkest padT8 " *ngIf = "!editMode"> 10.00</h5>
-                                <input type="text" class="marT8" *ngIf = "editMode">
+                                <input type="text" class="marT8" formControlName="startTime" *ngIf = "editMode">
                             </div>
                             <div class="col-md-4">
                                 <h6 class = "DSA_wb_caption web-GreyLight marT4">End Time</h6>
                                 <h5 class = "DSA_wb_mainBodyTxtSM web-GreyDarkest padT8" *ngIf = "!editMode">16.30</h5>
-                                <input type="text" class="marT8" *ngIf = "editMode">
+                                <input type="text" class="marT8" formControlName="endTime" *ngIf = "editMode">
                             </div>
                             <div class="col-md-4">
                                 <h6 class = "DSA_wb_caption web-GreyLight marT4">Timezone</h6>
                                 <h5 class = "DSA_wb_mainBodyTxtSM web-GreyDarkest padT8" *ngIf = "!editMode">PST</h5>
-                                <input type="text" class="marT8" *ngIf = "editMode">
+                                <input type="text" class="marT8" formControlName="timeZone" *ngIf = "editMode">
                             </div>
                         </div>
 
@@ -96,7 +96,7 @@
                             <div class="col-md-4">
                                 <h6 class = "DSA_wb_caption web-GreyLight marT4">Weekly Off Days</h6>
                                 <h5 class = "DSA_wb_mainBodyTxtSM web-GreyDarkest padT8" *ngIf = "!editMode">Monday, Tuesday</h5>
-                                <input type="text" class="marT8" *ngIf = "editMode">
+                                <input type="text" class="marT8" formControlName="weeklyOffDays" *ngIf = "editMode">
                             </div>
                         </div>
                     </div>
@@ -111,17 +111,17 @@
                             <div class="col-md-4">
                                 <h6 class = "DSA_wb_caption web-GreyLight marT4">Address 1</h6>
                                 <h5 class = "DSA_wb_mainBodyTxtSM web-GreyDarkest padT8" *ngIf = "!editMode">Apt</h5>
-                                <input type="text" class="marT8" *ngIf = "editMode">
+                                <input type="text" class="marT8" formControlName="address1" *ngIf = "editMode">
                             </div>
                             <div class="col-md-4">
                                 <h6 class = "DSA_wb_caption web-GreyLight marT4">Address 2</h6>
                                 <h5 class = "DSA_wb_mainBodyTxtSM web-GreyDarkest padT8" *ngIf = "!editMode">43610</h5>
-                                <input type="text" class="marT8" *ngIf = "editMode">
+                                <input type="text" class="marT8" formControlName="address2" *ngIf = "editMode">
                             </div>
                             <div class="col-md-4">
                                 <h6 class = "DSA_wb_caption web-GreyLight marT4">City</h6>
                                 <h5 class = "DSA_wb_mainBodyTxtSM web-GreyDarkest padT8" *ngIf = "!editMode">Fremont</h5>
-                                <input type="text" class="marT8" *ngIf = "editMode">
+                                <input type="text" class="marT8" formControlName="city" *ngIf = "editMode">
                             </div>
                         </div>
 
@@ -129,16 +129,16 @@
                             <div class="col-md-4">
                                 <h6 class = "DSA_wb_caption web-GreyLight marT4">State</h6>
                                 <h5 class = "DSA_wb_mainBodyTxtSM web-GreyDarkest padT8" *ngIf = "!editMode">CA</h5>
-                                <input type="text" class="marT8" *ngIf = "editMode">
+                                <input type="text" class="marT8" formControlName="state" *ngIf = "editMode">
                             </div>
                             <div class="col-md-4">
                                 <h6 class = "DSA_wb_caption web-GreyLight marT4">Zip</h6>
                                 <h5 class = "DSA_wb_mainBodyTxtSM web-GreyDarkest padT8" *ngIf = "!editMode">90045</h5>
-                                <input type="text" class="marT8" *ngIf = "editMode">
+                                <input type="text" class="marT8" formControlName="zip" *ngIf = "editMode">
                             </div>
                         </div>
                     </div>
-                
+                </form>
                 </mat-card-content>
             </mat-card>
         </div>
